@@ -1117,6 +1117,14 @@
       "method": "all_champion_appearances"
     },
     {
+      "gameId": "LOLTMNT01_302318",
+      "championId": "Renata",
+      "player": "Peter",
+      "skin": "Masque of the Black Rose Renata Glasc",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
       "gameId": "LOLTMNT01_303337",
       "championId": "Orianna",
       "player": "Faker",
@@ -1163,6 +1171,14 @@
       "skin": "Classic Mel",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303342",
+      "championId": "Renata",
+      "player": "Keria",
+      "skin": "Masque of the Black Rose Renata Glasc",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
     },
     {
       "gameId": "LOLTMNT01_307101",

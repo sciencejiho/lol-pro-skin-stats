@@ -14,6 +14,11 @@ assigning a skin to a Main Event game:
 - Six champions have one skin in all their appearances: Super Galaxy Rumble
   (21/21), Classic Ambessa (19/19), Striker Ezreal (15/15), Classic Azir
   (14/14), Prestige Blood Moon Aatrox (5/5), and Corporate Mundo (5/5).
+- In a comment on the same post, the observer reports four wins with Masque of
+  the Black Rose Renata Glasc. ChainCC shows exactly four Renata Glasc picks in
+  the full event, all wins. Thus every Renata pick used that skin; one was in
+  Play-In and three were in the Main Event. One of the latter was already
+  supported by the grand-final report, adding two new Main Event picks.
 - For Kai'Sa, Xayah, and Lucian, the tracker reports a dominant skin in all
   but one appearance (17/18, 10/11, and 8/9). It separately names the only
   player who chose each alternative. Each such player used that champion
@@ -54,11 +59,11 @@ uses its former name, Mafia Miss Fortune. [Riot's patch 10.13 notes](https://www
 confirm that its current name is Crime City Miss Fortune. This adds one
 game-specific player statement.
 
-Together, these sources yield **171/800 sourced picks (21.4%)**. The first
-156 are deductions from a firsthand observer's published data, not independent
-video checks. Five finals entries are explicitly named in the esports.gg
-report, nine are cross-checked against the observer's T1 wardrobe, and one
-comes from the translated player statement.
+Together, these sources yield **173/800 sourced picks (21.6%)**. The first
+156 and the two additional Renata picks are deductions from a firsthand
+observer's published data, not independent video checks. Five finals entries
+are explicitly named in the esports.gg report, nine are cross-checked against
+the observer's T1 wardrobe, and one comes from the translated player statement.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -69,7 +74,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 171 entries above; the other 629 cells are blank.
+`skin` column starts with the 173 entries above; the other 627 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
