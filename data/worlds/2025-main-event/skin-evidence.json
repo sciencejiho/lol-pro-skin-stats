@@ -1265,6 +1265,15 @@
     },
     {
       "gameId": "LOLTMNT01_307103",
+      "championId": "Mel",
+      "player": "Bdd",
+      "skin": "Classic Mel",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances_crosschecked",
+      "supportingSourceUrl": "https://wiki.leagueoflegends.com/en-us/Mel/Cosmetics"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
       "championId": "Sivir",
       "player": "Gumayusi",
       "skin": "Neo PAX Sivir",
