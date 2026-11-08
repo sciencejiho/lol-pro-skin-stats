@@ -3,7 +3,10 @@ import { readFileSync } from 'node:fs';
 
 import { parseCsv } from './csv.mjs';
 
-const dir = 'data/worlds/2025-main-event';
+const args = process.argv.slice(2);
+assert.ok(args.length === 0 || (args.length === 2 && args[0] === '--data-dir'),
+  'Usage: node scripts/validate.mjs [--data-dir directory]');
+const dir = args.length === 2 ? args[1] : 'data/worlds/2025-main-event';
 const roster = JSON.parse(readFileSync(`${dir}/roster.json`, 'utf8'));
 const evidence = JSON.parse(readFileSync(`${dir}/skin-evidence.json`, 'utf8'));
 const vods = JSON.parse(readFileSync(`${dir}/vods.json`, 'utf8'));
@@ -61,8 +64,12 @@ for (const match of roster.games) {
   }
 }
 
+const evidenceByKey = new Map();
 for (const record of evidence.records) {
-  const pick = picksByKey.get(`${record.gameId}:${record.championId}`);
+  const key = `${record.gameId}:${record.championId}`;
+  assert.ok(!evidenceByKey.has(key), `Duplicate skin evidence: ${key}`);
+  evidenceByKey.set(key, record);
+  const pick = picksByKey.get(key);
   assert.ok(pick);
   assert.equal(pick.player, record.player);
   assert.equal(pick.skin, record.skin);
@@ -74,5 +81,11 @@ for (const record of evidence.records) {
   } else {
     assert.equal(record.supportingSourceUrl, undefined);
   }
+}
+for (const [key, pick] of picksByKey) {
+  assert.equal(Boolean(pick.skin), Boolean(pick.source_url),
+    `Skin and source_url must both be set: ${key}`);
+  assert.equal(Boolean(evidenceByKey.has(key)), Boolean(pick.skin),
+    `Missing skin evidence or stale CSV: ${key}`);
 }
 console.log(`Validated 80 games, 800 picks, ${evidence.records.length} sourced skins, and 80 YouTube links`);

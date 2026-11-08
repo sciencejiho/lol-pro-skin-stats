@@ -13,9 +13,11 @@
 ## 입력 방법
 
 1. `games.csv`에서 경기를 찾고 `youtube_url`을 여세요. `picks.csv`의 각 픽에도 같은 링크가 있습니다. 이 링크는 픽/밴 화면이 아닌 **실제 경기 영상**으로 이어집니다.
-2. `picks.csv`에서 해당 `game_id`로 필터링해 선수·챔피언을 확인하세요. `skin`이 빈칸이면 아직 모르는 것입니다. **기본 스킨이라는 뜻이 아닙니다.** 스킨을 확인한 경우 이름을 입력하고, 가능하면 `source_url`에 확인한 영상의 시점 링크를 넣으세요.
+2. `picks.csv`에서 해당 `game_id`로 필터링해 선수·챔피언을 확인하세요. `skin`이 빈칸이면 아직 모르는 것입니다. **기본 스킨이라는 뜻이 아닙니다.** 스킨을 확인한 경우 이름을 입력하고 `source_url`에 확인한 영상의 시점 링크나 공개 자료 링크를 넣으세요. 새 스킨 값에는 출처가 필요합니다.
 3. 크로마는 스킨과 별도로 기록합니다. 처음에는 모든 행의 `chroma_status`가 `unreviewed`입니다. 영상을 확인했다면 `default`(기본 색상), `variant`(다른 크로마), `unavailable`(해당 스킨에 크로마가 없음), `uncertain`(영상만으로 식별 불가) 중 하나로 바꾸세요. `variant`일 때는 `chroma`에 이름이나 색상을 쓰고, 판정한 경우에는 `chroma_source_url`에 근거 영상 링크를 넣으세요. 크로마를 구별할 수 없을 때는 추측하지 마세요.
 4. 날짜, `game_id`, `series_game`, 팀, 선수, 챔피언 ID와 행 수는 유지하세요. 수정한 CSV를 이 저장소의 이슈나 PR로 공유하거나, 사이트 관리자에게 전달하면 검토 후 공개 통계에 반영할 수 있습니다.
+
+CSV를 직접 수정했다면 `node scripts/import-reviewed-picks.mjs`로 새 스킨·출처를 `skin-evidence.json`에 옮기고 `node scripts/validate.mjs`로 800픽·80개 VOD와 근거의 일치를 확인하세요. 기존 근거와 다른 값은 자동으로 덮어쓰지 않고 오류로 표시합니다. 이 스크립트는 크로마 칸을 변경하지 않습니다. 사이트 반영 시 검토된 `picks.csv`와 `skin-evidence.json`을 [웹사이트 저장소](https://github.com/sciencejiho/web-main)의 대응 파일에 복사해야 합니다.
 
 현재 178개의 `skin` 값 중 160개는 [직접 관찰한 월즈 2025 기록](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)의 대회 전체 집계·특정 선수 언급을 [ChainCC 경기 자료](https://chaincc.lol/free/data)와 맞춰 경기 단위로 좁힌 것입니다. 5개는 [결승전 실제 사용 스킨 보도](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)에 명시됐고, 9개는 그 보도와 관찰자의 T1 스킨 목록이 일치하며, 1개는 [선수의 대회 복기 방송 기록](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/)에서 확인했습니다. 새로 추가한 3개는 공식 경기 VOD의 시점별 해설에서 확인했고, 스킨 외형으로 이름을 특정한 2개에는 보조 출처를 남겼습니다. 영상으로 178건을 각각 재확인한 것은 아닙니다. 나머지 622픽은 미확인입니다. 크로마는 아직 확인한 항목이 없습니다. 추론 범위는 [조사 기록](docs/worlds-2025-methodology.md)에 적었습니다.
 
@@ -31,3 +33,5 @@
 ## English
 
 This public dataset tracks skins actually chosen in pro League of Legends games. It currently covers all 80 games and 800 champion picks of the Worlds 2025 Main Event, with an official English YouTube VOD link for each game. A blank `skin` means **unknown**, not the default skin. Chroma is tracked independently and remains unreviewed until there is evidence.
+
+To add a reviewed skin, fill `skin` and an HTTPS `source_url` in `picks.csv`, then run `node scripts/import-reviewed-picks.mjs` and `node scripts/validate.mjs`. The importer creates a `manual_review` evidence record for the exact game pick and refuses to overwrite an existing claim.
