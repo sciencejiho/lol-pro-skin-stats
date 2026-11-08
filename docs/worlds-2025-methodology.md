@@ -130,6 +130,27 @@ default color. The entry sheet starts all 800 chroma statuses as `unreviewed`;
 it can later distinguish confirmed default, a named variant, unavailable,
 and visually uncertain chroma choices, each with a source link when reviewed.
 
+## High-leverage manual review: Mordekaiser
+
+The firsthand tracker reports **Sahn-Uzal Mordekaiser in six of eight**
+appearances, names **Pentakill Mordekaiser** as another used skin, and names
+**King of Clubs Mordekaiser** for Doran. ChainCC places all eight Mordekaiser
+picks in the Main Event; Doran's one pick is already sourced. This leaves one
+Pentakill and six Sahn-Uzal picks among these seven games. Identifying the
+Pentakill game from a clear official VOD view would make all seven assignable
+by elimination, subject to checking the tracker against the footage. No new
+skin is assigned solely from these aggregate counts.
+
+| Date | Player | Game ID | Official game VOD |
+| --- | --- | --- | --- |
+| 2025-10-15 | Bwipo | `LOLTMNT01_296748` | [FLY–T1](https://www.youtube.com/watch?v=6wj8x1ySMzU) |
+| 2025-10-16 | Bwipo | `LOLTMNT01_296903` | [VKS–FLY](https://www.youtube.com/watch?v=ES2vDP1lZj0) |
+| 2025-10-18 | Hiro02 | `LOLTMNT01_298440` | [FLY–TSW](https://www.youtube.com/watch?v=FqXzm4-FCCQ) |
+| 2025-10-25 | 369 | `LOLTMNT01_300771` | [TES–BLG](https://www.youtube.com/watch?v=V9AgrsUzMHY) |
+| 2025-10-25 | Myrwn | `LOLTMNT01_300794` | [MKOI–T1](https://www.youtube.com/watch?v=QhKKq1S9TmQ) |
+| 2025-10-31 | Flandre | `LOLTMNT01_303216` | [AL–T1](https://www.youtube.com/watch?v=zvALENbYZjU) |
+| 2025-11-09 | PerfecT | `LOLTMNT01_307104` | [KT–T1](https://www.youtube.com/watch?v=l47xGNAvX4M) |
+
 ## Automated source check
 
 Riot's [Match-V5 issue tracker](https://github.com/RiotGames/developer-relations/issues/754)
