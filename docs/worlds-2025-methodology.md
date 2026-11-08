@@ -19,6 +19,9 @@ assigning a skin to a Main Event game:
   the full event, all wins. Thus every Renata pick used that skin; one was in
   Play-In and three were in the Main Event. One of the latter was already
   supported by the grand-final report, adding two new Main Event picks.
+- The observer also names SKT T1 Elise as a used skin. Elise appeared once in
+  all 84 games, so ON's Main Event pick is identified. This makes eight
+  champions whose full-event appearances are covered by one named skin.
 - For Kai'Sa, Xayah, and Lucian, the tracker reports a dominant skin in all
   but one appearance (17/18, 10/11, and 8/9). It separately names the only
   player who chose each alternative. Each such player used that champion
@@ -27,12 +30,20 @@ assigning a skin to a Main Event game:
   skins. Faker had 24 whole-event games and Poby had five. Their 20 and five
   Main Event picks respectively are base-skin selections. The separate
   mid-lane base-skin totals (75, or 51 without Faker) reconcile Faker's count.
-- The post names skins for 20 other player/champion combinations that each
+- The post identifies skins for 21 other player/champion combinations that each
   occurred exactly once in all 84 games. Two overlap the all-champion rule.
   The T1 wardrobe list is incomplete for some champions, so repeated picks
   from that list are not assigned without game-specific evidence.
+- One of these is Canyon's Nidalee: the observer reports that Canyon used his
+  own World Championship skin, and ChainCC shows only one Canyon Nidalee pick
+  in the event. [Riot's Nidalee page](https://www.leagueoflegends.com/en-gb/champions/nidalee/)
+  names his 2020 champion skin DWG Nidalee.
+- Not every aggregate can safely identify a game. For example, the post lists
+  four Secret Agent Xin Zhao uses and separately calls Canyon its only user,
+  whereas ChainCC has only three Canyon Xin Zhao picks in the full event.
+  This conflict is left unresolved and none of those picks is assigned from it.
 
-These methods yield 156 sourced picks. An [esports.gg report on T1's grand-final
+These methods yield 160 sourced picks. An [esports.gg report on T1's grand-final
 skins](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)
 explicitly identifies five additional on-stage selections: T1 Varus, Neo PAX
 Sivir, Classic Yunara, Hextech Renekton, and Masque of the Black Rose Renata
@@ -59,9 +70,9 @@ uses its former name, Mafia Miss Fortune. [Riot's patch 10.13 notes](https://www
 confirm that its current name is Crime City Miss Fortune. This adds one
 game-specific player statement.
 
-Together, these sources yield **173/800 sourced picks (21.6%)**. The first
-156 and the two additional Renata picks are deductions from a firsthand
-observer's published data, not independent video checks. Five finals entries
+Together, these sources yield **175/800 sourced picks (21.9%)**. The first
+160 are deductions from a firsthand observer's published data, not independent
+video checks. Five finals entries
 are explicitly named in the esports.gg report, nine are cross-checked against
 the observer's T1 wardrobe, and one comes from the translated player statement.
 All other skin choices remain unknown.
@@ -74,7 +85,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 173 entries above; the other 627 cells are blank.
+`skin` column starts with the 175 entries above; the other 625 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an

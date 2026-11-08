@@ -37,6 +37,14 @@
       "method": "all_champion_appearances"
     },
     {
+      "gameId": "LOLTMNT01_297733",
+      "championId": "Elise",
+      "player": "ON",
+      "skin": "SKT T1 Elise",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
       "gameId": "LOLTMNT01_296748",
       "championId": "Kaisa",
       "player": "Massu",
@@ -827,6 +835,14 @@
       "skin": "iG Kai'Sa",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_302140",
+      "championId": "Nidalee",
+      "player": "Canyon",
+      "skin": "DWG Nidalee",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
     },
     {
       "gameId": "LOLTMNT01_303118",
