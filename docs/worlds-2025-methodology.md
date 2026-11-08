@@ -32,8 +32,13 @@ assigning a skin to a Main Event game:
   mid-lane base-skin totals (75, or 51 without Faker) reconcile Faker's count.
 - The post identifies skins for 21 other player/champion combinations that each
   occurred exactly once in all 84 games. Two overlap the all-champion rule.
-  The T1 wardrobe list is incomplete for some champions, so repeated picks
-  from that list are not assigned without game-specific evidence.
+  The T1 wardrobe list is incomplete for some champions: it omits Oner's
+  finals Viego and Keria's finals Poppy, although both picks appear in the
+  match roster. Its stated Keria skin total also differs from the number of
+  entries in that list. A named skin there therefore establishes that it was
+  used during the tournament, but does not establish that it was used in
+  *every* game where that player picked the champion. Repeated picks from
+  the list are not assigned without game-specific evidence.
 - One of these is Canyon's Nidalee: the observer reports that Canyon used his
   own World Championship skin, and ChainCC shows only one Canyon Nidalee pick
   in the event. [Riot's Nidalee page](https://www.leagueoflegends.com/en-gb/champions/nidalee/)
@@ -94,6 +99,9 @@ The two skin-design deductions carry their second source in
 `supportingSourceUrl`. A [different Rek'Sai commentary mention](https://www.youtube.com/watch?v=qJFdgnR6OY8&t=1135s)
 appears to discuss Pool Party while the observer reports no Pool Party Rek'Sai
 in the event; it is left unresolved and no skin is assigned from it.
+The caption endpoint later returned a Google request-limit page when sampled
+again; the saved scan contains only the 29 candidate passages, so a wider
+transcript search requires fresh access to the official VODs.
 
 Together, these sources yield **178/800 sourced picks (22.3%)**. The first
 160 are deductions from a firsthand observer's published data, not independent
