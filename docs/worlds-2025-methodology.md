@@ -108,12 +108,20 @@ also explicitly names KT PerfecT's Sahn-Uzal Mordekaiser in the grand final.
 ChainCC places his only Mordekaiser pick in final game four, so that exact
 game receives the reported skin.
 
-Together, these sources yield **179/800 sourced picks (22.4%)**. The first
+The [official MKOI–T1 game-one VOD at 12:00](https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=720s)
+shows Myrwn's Mordekaiser in top lane with the large red orb mace and exposed
+torso of [Sahn-Uzal Mordekaiser](https://www.youtube.com/watch?v=vEJ3z2QqKf8&t=35s),
+rather than Pentakill Mordekaiser's guitar-shaped weapon. This is recorded as
+one manually reviewed game pick. The broadcast does not establish a chroma.
+The tracker reports six Sahn-Uzal uses in eight Mordekaiser picks, but that
+aggregate is not used to fill the other five unidentified picks.
+
+Together, these sources yield **180/800 sourced picks (22.5%)**. The first
 160 are deductions from a firsthand observer's published data, not independent
 video checks. Five finals entries are explicitly named in the esports.gg report,
 nine are cross-checked against the observer's T1 wardrobe, one comes from the
 translated player statement, three from timed VOD commentary, and one from
-the year-end report.
+the year-end report. One additional pick was visually reviewed in the official VOD.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -124,7 +132,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 179 entries above; the other 621 cells are blank.
+`skin` column starts with the 180 entries above; the other 620 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
@@ -169,7 +177,12 @@ Riot's [Match-V5 issue tracker](https://github.com/RiotGames/developer-relations
 confirms that regular match participants can have `championSkinId`. That does
 not establish access to Worlds tournament-realm matches through Match-V5.
 The public LoL Esports game and live-stats endpoints used for this dataset do
-not include a skin field. [Riot's esports data page](https://riotesportsdata.com/en-us/league-of-legends/)
+not include a skin field. In particular, the archived
+[game-three window](https://feed.lolesports.com/livestats/v1/window/113475871524050786)
+and [details](https://feed.lolesports.com/livestats/v1/details/113475871524050786)
+responses for the 2025 grand final returned participant champion data and
+frame details, but no skin field when checked on 2026-11-08.
+[Riot's esports data page](https://riotesportsdata.com/en-us/league-of-legends/)
 says broader community access to the separate LoL Esports Data Portal is still
 being rolled out. No skin value is inferred from an absent field or from a
 promotional skin bundle.
@@ -201,7 +214,7 @@ table has picks, teams, dates, and results rather than skins. The
 [GPTilt esports matches dataset](https://huggingface.co/datasets/gptilt/lol-esports-matches)
 includes a Leaguepedia game ID, Riot game ID, picks, and a VOD field, but its
 published schema has no skin or chroma field. Neither can supply a skin value
-for the 621 still-unidentified Main Event picks.
+for the 620 still-unidentified Main Event picks.
 
 The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
 regenerates the evidence overlay from the ChainCC file and the reviewed source

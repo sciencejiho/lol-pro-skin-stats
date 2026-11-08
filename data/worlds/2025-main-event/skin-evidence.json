@@ -1446,6 +1446,14 @@
       "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
       "method": "finals_bundle_tracker_agreement",
       "supportingSourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/"
+    },
+    {
+      "gameId": "LOLTMNT01_300794",
+      "championId": "Mordekaiser",
+      "player": "Myrwn",
+      "skin": "Sahn-Uzal Mordekaiser",
+      "sourceUrl": "https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=720s",
+      "method": "manual_review"
     }
   ]
 }
