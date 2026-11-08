@@ -179,6 +179,12 @@ Its public matches query returned no 2025 records when checked on 2026-11-08,
 so it cannot fill this tournament. Revisit these sources if their coverage or
 access changes.
 
+The older Leaguepedia wiki has a [2017 Worlds Main Event skins page](https://lol.fandom.com/wiki/2017_Season_World_Championship/Main_Event/Skins),
+but its [MediaWiki page query for the corresponding 2025 page](https://lol.fandom.com/api.php?action=query&format=json&titles=2025_Season_World_Championship%2FMain_Event%2FSkins)
+returns `missing`. The 2015–2017 skin archive therefore does not provide a
+2025 game-skin table under the same page series. This check does not rule out
+a differently named or privately held dataset.
+
 Two other public match archives were checked on 2026-11-08. The
 [League2025WorldData project](https://github.com/KayXi2014/League2025WorldData)
 scrapes the Worlds 2025 Leaguepedia match history, but its published match
