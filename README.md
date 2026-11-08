@@ -5,6 +5,7 @@
 | 파일 | 내용 |
 | --- | --- |
 | [경기별 YouTube 링크](data/worlds/2025-main-event/games.csv) | 80경기의 공식 LoL Esports 영어 VOD와 경기 ID |
+| [실제 경기 구간 탐색용 링크](data/worlds/2025-main-event/gameplay-hints.csv) | 65경기의 YouTube 자동 챕터 링크와 검토 상태 |
 | [VOD JSON](data/worlds/2025-main-event/vods.json) | 웹사이트에서 쓰는 경기 ID·YouTube 링크 목록 |
 | [스킨 입력표](data/worlds/2025-main-event/picks.csv) | 800픽의 날짜·팀·선수·챔피언·스킨·크로마·영상 링크 |
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
@@ -12,7 +13,7 @@
 
 ## 입력 방법
 
-1. `games.csv`에서 경기를 찾고 `youtube_url`을 여세요. `picks.csv`의 각 픽에도 같은 링크가 있습니다. 이 링크는 픽/밴 화면이 아닌 **실제 경기 영상**으로 이어집니다.
+1. `games.csv`에서 경기를 찾고 `youtube_url`을 여세요. `picks.csv`의 각 픽에도 같은 링크가 있습니다. 픽/밴 이후의 화면으로 빠르게 이동하려면 같은 `game_id`의 `gameplay-hints.csv`에서 `chapter_hint_url`을 이용하세요. 65경기에만 자동 챕터 힌트가 있으며, **경기 시작 시점으로 검증된 값은 아닙니다.** 빈칸인 15경기는 원래 YouTube 링크에서 직접 찾으세요.
 2. `picks.csv`에서 해당 `game_id`로 필터링해 선수·챔피언을 확인하세요. `skin`이 빈칸이면 아직 모르는 것입니다. **기본 스킨이라는 뜻이 아닙니다.** 스킨을 확인한 경우 이름을 입력하고 `source_url`에 확인한 영상의 시점 링크나 공개 자료 링크를 넣으세요. 새 스킨 값에는 출처가 필요합니다.
 3. 크로마는 스킨과 별도로 기록합니다. 처음에는 모든 행의 `chroma_status`가 `unreviewed`입니다. 영상을 확인했다면 `default`(기본 색상), `variant`(다른 크로마), `unavailable`(해당 스킨에 크로마가 없음), `uncertain`(영상만으로 식별 불가) 중 하나로 바꾸세요. `variant`일 때는 `chroma`에 이름이나 색상을 쓰고, 판정한 경우에는 `chroma_source_url`에 근거 영상 링크를 넣으세요. 크로마를 구별할 수 없을 때는 추측하지 마세요.
 4. 날짜, `game_id`, `series_game`, 팀, 선수, 챔피언 ID와 행 수는 유지하세요. 수정한 CSV를 이 저장소의 이슈나 PR로 공유하거나, 사이트 관리자에게 전달하면 검토 후 공개 통계에 반영할 수 있습니다.

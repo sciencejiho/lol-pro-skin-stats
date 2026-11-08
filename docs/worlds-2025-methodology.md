@@ -163,6 +163,20 @@ which participant selected one in a particular game. Thus these catalogs can
 validate a manually identified skin but cannot assign it to a game by
 themselves.
 
+## VOD navigation hints
+
+For manual review, `gameplay-hints.csv` keeps the original official VOD link for
+all 80 games and a tentative chapter link for 65 of them. We read the
+YouTube-provided chapter titles with `yt-dlp` on 2026-11-08 and selected the
+first chapter at or after 250 seconds whose title suggests early gameplay,
+excluding chapters labelled draft, analysis, or recap. Eight videos returned
+no chapters; seven others had no suitable title. The `review_status` field
+explicitly marks these links as **unverified navigation hints**. YouTube
+chapters are sometimes inaccurate: one VOD labels its 47-second mark as
+"Game start" despite a preceding draft chapter. These links therefore help a
+reviewer skip towards gameplay but are not evidence for a skin, chroma, or the
+precise match start time. The original VOD URL remains available in every row.
+
 ## High-leverage manual review: Mordekaiser
 
 The firsthand tracker reports **Sahn-Uzal Mordekaiser in six of eight**
