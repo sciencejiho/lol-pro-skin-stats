@@ -177,6 +177,14 @@ chapters are sometimes inaccurate: one VOD labels its 47-second mark as
 reviewer skip towards gameplay but are not evidence for a skin, chroma, or the
 precise match start time. The original VOD URL remains available in every row.
 
+One targeted lead remains unresolved: a [contemporaneous T1–CFO discussion](https://www.reddit.com/r/SKTT1/comments/1o81g05/t1_vs_cfo_worlds_swiss_stage/)
+suggests that Oner used his own Vi skin in the October 16 game
+`LOLTMNT01_296949`. The firsthand tracker confirms that Oner used T1 Vi at
+some point in the tournament, but he played Vi in two Main Event games. The
+discussion's wording is tentative, and the available low-resolution VOD frames
+do not distinguish T1 Vi from other skins confidently. Both Oner Vi picks
+therefore remain unknown until a clearer game-specific source is found.
+
 ## High-leverage manual review: Mordekaiser
 
 The firsthand tracker reports **Sahn-Uzal Mordekaiser in six of eight**
