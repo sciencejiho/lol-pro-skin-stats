@@ -24,6 +24,7 @@ assert.ok(evidence.records.length <= 800);
 assert.equal(vods.records.length, 80);
 const gamesById = new Map(games.map((game) => [game.game_id, game]));
 assert.equal(gamesById.size, 80);
+assert.equal(new Set(games.map((game) => game.youtube_url)).size, 80);
 const vodsById = new Map(vods.records.map((record) => [record.gameId, record.youtubeUrl]));
 assert.equal(vodsById.size, 80);
 const picksByKey = new Map(picks.map((pick) =>
