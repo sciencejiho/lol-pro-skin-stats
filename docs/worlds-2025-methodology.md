@@ -143,13 +143,20 @@ skin is assigned solely from these aggregate counts.
 
 | Date | Player | Game ID | Official game VOD |
 | --- | --- | --- | --- |
-| 2025-10-15 | Bwipo | `LOLTMNT01_296748` | [FLY–T1](https://www.youtube.com/watch?v=6wj8x1ySMzU) |
+| 2025-10-15 | Bwipo | `LOLTMNT01_296748` | [FLY–T1, visible at 10:06](https://www.youtube.com/watch?v=6wj8x1ySMzU&t=606s) |
 | 2025-10-16 | Bwipo | `LOLTMNT01_296903` | [VKS–FLY](https://www.youtube.com/watch?v=ES2vDP1lZj0) |
 | 2025-10-18 | Hiro02 | `LOLTMNT01_298440` | [FLY–TSW](https://www.youtube.com/watch?v=FqXzm4-FCCQ) |
 | 2025-10-25 | 369 | `LOLTMNT01_300771` | [TES–BLG](https://www.youtube.com/watch?v=V9AgrsUzMHY) |
-| 2025-10-25 | Myrwn | `LOLTMNT01_300794` | [MKOI–T1](https://www.youtube.com/watch?v=QhKKq1S9TmQ) |
+| 2025-10-25 | Myrwn | `LOLTMNT01_300794` | [MKOI–T1, visible at 12:05](https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=725s) |
 | 2025-10-31 | Flandre | `LOLTMNT01_303216` | [AL–T1](https://www.youtube.com/watch?v=zvALENbYZjU) |
-| 2025-11-09 | PerfecT | `LOLTMNT01_307104` | [KT–T1](https://www.youtube.com/watch?v=l47xGNAvX4M) |
+| 2025-11-09 | PerfecT | `LOLTMNT01_307104` | [KT–T1, visible at 10:06](https://www.youtube.com/watch?v=l47xGNAvX4M&t=606s) |
+
+Those timestamps show the champion on screen, but the broadcast model is small
+and the first form of [Sahn-Uzal](https://www.youtube.com/watch?v=vEJ3z2QqKf8&t=35s)
+and [Pentakill](https://www.youtube.com/watch?v=8k9lhsLslSw&t=35s) both have
+dark armor and red weapon effects. This visual sample does not identify the
+exception. Keep all seven picks unknown until a clearer game view or direct
+game-specific source distinguishes the skins.
 
 ## Automated source check
 
