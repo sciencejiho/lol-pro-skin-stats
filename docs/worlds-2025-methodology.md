@@ -144,6 +144,25 @@ default color. The entry sheet starts all 800 chroma statuses as `unreviewed`;
 it can later distinguish confirmed default, a named variant, unavailable,
 and visually uncertain chroma choices, each with a source link when reviewed.
 
+## Archived game data and skin IDs
+
+We checked the [Leaguepedia scoreboard parser's raw-game lookup](https://github.com/Leaguepedia/leaguepedia-scoreboard-parser/blob/master/leaguepedia_sb_parser/components/fetch_game.py)
+and the [Leaguepedia V5 data API record for MKOI–T1 game one](https://lol.fandom.com/api.php?action=query&prop=revisions&titles=V5%20data%3ALOLTMNT01_300794&rvprop=content&rvslots=main&format=json).
+The record contains all ten participants, including Myrwn's Mordekaiser, but
+neither the participant objects nor the rest of this game JSON contain a skin
+or chroma field. The parser's scoreboard result also omits skin. This one-game
+check does not prove that every archived source lacks skin data; it does mean
+this public Leaguepedia path cannot currently fill the missing picks.
+
+[Riot's Live Client Data API](https://developer.riotgames.com/docs/lol#live-client-data-api)
+documents `skinID` in `/liveclientdata/playerlist`, but that endpoint is served
+by a running game client at `127.0.0.1:2999`. It is not an archive for the
+2025 tournament. [Riot's Data Dragon documentation](https://developer.riotgames.com/docs/lol#data-dragon)
+provides the names and IDs of skins and chromas, not a historical record of
+which participant selected one in a particular game. Thus these catalogs can
+validate a manually identified skin but cannot assign it to a game by
+themselves.
+
 ## High-leverage manual review: Mordekaiser
 
 The firsthand tracker reports **Sahn-Uzal Mordekaiser in six of eight**
