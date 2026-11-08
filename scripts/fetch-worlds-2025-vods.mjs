@@ -9,6 +9,7 @@ const DIRECTORY = 'data/worlds/2025-main-event';
 const ROSTER = `${DIRECTORY}/roster.json`;
 const PICKS = `${DIRECTORY}/picks.csv`;
 const GAMES = `${DIRECTORY}/games.csv`;
+const VODS_JSON = `${DIRECTORY}/vods.json`;
 const VIDEO_ID = /^[A-Za-z0-9_-]{11}$/;
 
 async function get(path, parameters) {
@@ -114,6 +115,12 @@ for (const game of snapshot.games) {
   ]);
 }
 writeFileSync(GAMES, writeCsv(gameRows));
+writeFileSync(VODS_JSON, `${JSON.stringify({
+  schemaVersion: 1, event: 'Worlds', year: 2025, stage: 'Main Event',
+  records: snapshot.games.map(({ id }) => ({
+    gameId: id, youtubeUrl: vodByGame.get(id).youtubeUrl,
+  })),
+}, null, 2)}\n`);
 
 const rows = parseCsv(readFileSync(PICKS, 'utf8'));
 const header = rows.shift();

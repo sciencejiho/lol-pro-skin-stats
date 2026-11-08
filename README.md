@@ -5,6 +5,7 @@
 | 파일 | 내용 |
 | --- | --- |
 | [경기별 YouTube 링크](data/worlds/2025-main-event/games.csv) | 80경기의 공식 LoL Esports 영어 VOD와 경기 ID |
+| [VOD JSON](data/worlds/2025-main-event/vods.json) | 웹사이트에서 쓰는 경기 ID·YouTube 링크 목록 |
 | [스킨 입력표](data/worlds/2025-main-event/picks.csv) | 800픽의 날짜·팀·선수·챔피언·스킨·크로마·영상 링크 |
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
 | [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 관찰 기록에서 정확한 픽에 연결한 156건 |
@@ -23,6 +24,7 @@
 - 경기·픽: ChainCC, *League of Legends esports match dataset*, [공개 데이터](https://chaincc.lol/free/data), **CC BY 4.0**. 2025년 파일에서 10월 14일 플레이인 4경기를 제외했습니다. 원본 소유와 라이선스는 ChainCC에 있습니다.
 - VOD: [LoL Esports](https://lolesports.com/)의 공개 경기 상세 자료에 있는 `en-US` YouTube 영상 ID를 경기 날짜·두 팀·세트 번호로 연결했습니다. `scripts/fetch-worlds-2025-vods.mjs`가 80경기를 다시 조회하고 입력표에 링크를 채웁니다. 영상 및 관련 상표는 해당 소유자에게 있습니다.
 - 스킨: [월즈 2025 직접 관찰 기록](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)을 출처로 표시합니다. 해당 기록에 없는 스킨은 임의로 채우지 않습니다.
+- 크로마 식별: [Riot Data Dragon 문서](https://developer.riotgames.com/docs/lol#data-dragon)는 크로마 항목을 `parentSkin`으로 원래 스킨과 연결합니다. 향후 이름을 Riot 스킨·크로마 ID에 연결할 때 이 관계와 **경기 당시 패치**를 함께 확인해야 합니다. 현재 CSV의 크로마는 모두 미검토입니다.
 
 `node scripts/validate.mjs`는 80경기·800픽의 ID·팀·선수·VOD 연결과 현재 근거 156건을 검사합니다. VOD 조회에는 Node.js 20 이상이 필요합니다. 이 저장소는 Riot Games의 공식 프로젝트가 아닙니다.
 

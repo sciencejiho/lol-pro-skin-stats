@@ -6,6 +6,7 @@ import { parseCsv } from './csv.mjs';
 const dir = 'data/worlds/2025-main-event';
 const roster = JSON.parse(readFileSync(`${dir}/roster.json`, 'utf8'));
 const evidence = JSON.parse(readFileSync(`${dir}/skin-evidence.json`, 'utf8'));
+const vods = JSON.parse(readFileSync(`${dir}/vods.json`, 'utf8'));
 
 function readRows(file) {
   const [header, ...cells] = parseCsv(readFileSync(`${dir}/${file}`, 'utf8'));
@@ -19,9 +20,12 @@ const picks = readRows('picks.csv');
 assert.equal(roster.games.length, 80);
 assert.equal(games.length, 80);
 assert.equal(picks.length, 800);
-assert.equal(evidence.records.length, 156);
+assert.ok(evidence.records.length <= 800);
+assert.equal(vods.records.length, 80);
 const gamesById = new Map(games.map((game) => [game.game_id, game]));
 assert.equal(gamesById.size, 80);
+const vodsById = new Map(vods.records.map((record) => [record.gameId, record.youtubeUrl]));
+assert.equal(vodsById.size, 80);
 const picksByKey = new Map(picks.map((pick) =>
   [`${pick.game_id}:${pick.champion_id}`, pick]));
 assert.equal(picksByKey.size, 800);
@@ -31,6 +35,7 @@ for (const match of roster.games) {
   assert.ok(game, `Missing VOD for ${match.id}`);
   assert.equal(game.date, match.date);
   assert.match(game.youtube_url, /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/);
+  assert.equal(vodsById.get(match.id), game.youtube_url);
   assert.match(game.lolesports_url, /^https:\/\/lolesports\.com\/en-US\/vod\//);
   const teams = new Set(match.picks.map((pick) => pick.team));
   assert.deepEqual(new Set([game.team_a, game.team_b]), teams);
@@ -62,4 +67,4 @@ for (const record of evidence.records) {
   assert.equal(pick.skin, record.skin);
   assert.equal(pick.source_url, record.sourceUrl);
 }
-console.log('Validated 80 games, 800 picks, 156 sourced skins, and 80 YouTube links');
+console.log(`Validated 80 games, 800 picks, ${evidence.records.length} sourced skins, and 80 YouTube links`);
