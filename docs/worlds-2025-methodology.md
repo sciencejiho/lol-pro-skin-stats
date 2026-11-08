@@ -70,11 +70,36 @@ uses its former name, Mafia Miss Fortune. [Riot's patch 10.13 notes](https://www
 confirm that its current name is Crime City Miss Fortune. This adds one
 game-specific player statement.
 
-Together, these sources yield **175/800 sourced picks (21.9%)**. The first
+The official English YouTube VODs expose automatic English captions. A bounded
+scan of all 80 game VODs found 29 candidate uses of the word "skin"; most were
+ability-name transcription errors or general discussion. Three mentions could
+be joined to a specific pick:
+
+- [Finals game four, about 16:30](https://www.youtube.com/watch?v=l47xGNAvX4M&t=990s):
+  commentary explicitly identifies deokdam's Caitlyn as the DRX skin. [Riot's
+  Caitlyn page](https://www.leagueoflegends.com/en-us/champions/caitlyn/)
+  confirms the client name **DRX Caitlyn**.
+- [G2 vs BLG, about 9:06](https://www.youtube.com/watch?v=4cnUcX2JA6A&t=546s):
+  commentary refers to Caps's on-screen Anivia as the eagle skin. The
+  independent [Worlds observer](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)
+  names **Bird of Prey Anivia** among the skins used in this event; that is the
+  eagle design in [Riot's Anivia catalog](https://www.leagueoflegends.com/en-gb/champions/anivia/).
+- [HLE vs Gen.G, about 12:09](https://www.youtube.com/watch?v=HIkkXzh5AuI&t=729s):
+  commentary points out the traffic-cone pillar when discussing the skin choice.
+  Peanut is the game's only Trundle, and [contemporary PBE coverage](https://www.surrenderat20.net/2014/11/116-pbe-update.html)
+  identifies that ability model as **Constable Trundle**.
+
+These are automatic-caption leads, not separately checked audio transcripts.
+The two skin-design deductions carry their second source in
+`supportingSourceUrl`. A [different Rek'Sai commentary mention](https://www.youtube.com/watch?v=qJFdgnR6OY8&t=1135s)
+appears to discuss Pool Party while the observer reports no Pool Party Rek'Sai
+in the event; it is left unresolved and no skin is assigned from it.
+
+Together, these sources yield **178/800 sourced picks (22.3%)**. The first
 160 are deductions from a firsthand observer's published data, not independent
-video checks. Five finals entries
-are explicitly named in the esports.gg report, nine are cross-checked against
-the observer's T1 wardrobe, and one comes from the translated player statement.
+video checks. Five finals entries are explicitly named in the esports.gg report,
+nine are cross-checked against the observer's T1 wardrobe, one comes from the
+translated player statement, and three from timed VOD commentary.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -85,7 +110,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 175 entries above; the other 625 cells are blank.
+`skin` column starts with the 178 entries above; the other 622 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an

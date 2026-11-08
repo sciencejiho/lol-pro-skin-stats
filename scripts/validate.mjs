@@ -68,7 +68,8 @@ for (const record of evidence.records) {
   assert.equal(pick.skin, record.skin);
   assert.equal(pick.source_url, record.sourceUrl);
   assert.match(record.sourceUrl, /^https:\/\//);
-  if (record.method === 'finals_bundle_tracker_agreement') {
+  if (['finals_bundle_tracker_agreement', 'vod_commentary_crosschecked']
+    .includes(record.method)) {
     assert.match(record.supportingSourceUrl, /^https:\/\//);
   } else {
     assert.equal(record.supportingSourceUrl, undefined);

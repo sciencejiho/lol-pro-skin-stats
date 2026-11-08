@@ -349,6 +349,15 @@
       "method": "all_champion_appearances"
     },
     {
+      "gameId": "LOLTMNT01_298463",
+      "championId": "Anivia",
+      "player": "Caps",
+      "skin": "Bird of Prey Anivia",
+      "sourceUrl": "https://www.youtube.com/watch?v=4cnUcX2JA6A&t=546s",
+      "method": "vod_commentary_crosschecked",
+      "supportingSourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/"
+    },
+    {
       "gameId": "LOLTMNT01_298478",
       "championId": "Lucian",
       "player": "Viper",
@@ -819,6 +828,15 @@
       "skin": "Classic Ambessa",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303068",
+      "championId": "Trundle",
+      "player": "Peanut",
+      "skin": "Constable Trundle",
+      "sourceUrl": "https://www.youtube.com/watch?v=HIkkXzh5AuI&t=729s",
+      "method": "vod_commentary_crosschecked",
+      "supportingSourceUrl": "https://www.surrenderat20.net/2014/11/116-pbe-update.html"
     },
     {
       "gameId": "LOLTMNT01_303068",
@@ -1369,6 +1387,14 @@
       "skin": "Oktoberfest Gragas",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Caitlyn",
+      "player": "deokdam",
+      "skin": "DRX Caitlyn",
+      "sourceUrl": "https://www.youtube.com/watch?v=l47xGNAvX4M&t=990s",
+      "method": "vod_commentary_explicit"
     },
     {
       "gameId": "LOLTMNT01_307105",
