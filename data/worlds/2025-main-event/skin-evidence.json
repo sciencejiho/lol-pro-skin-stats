@@ -418,7 +418,7 @@
       "player": "Poby",
       "skin": "Classic Azir",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
-      "method": "all_champion_appearances"
+      "method": "all_player_appearances"
     },
     {
       "gameId": "LOLTMNT01_299677",
@@ -762,7 +762,7 @@
       "player": "Faker",
       "skin": "Classic Azir",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
-      "method": "all_champion_appearances"
+      "method": "all_player_appearances"
     },
     {
       "gameId": "LOLTMNT01_301778",
@@ -978,7 +978,7 @@
       "player": "Doran",
       "skin": "Super Galaxy Rumble",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
-      "method": "all_champion_appearances"
+      "method": "single_player_champion_appearance"
     },
     {
       "gameId": "LOLTMNT01_303214",
@@ -1034,7 +1034,7 @@
       "player": "Oner",
       "skin": "Corporate Mundo",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
-      "method": "all_champion_appearances"
+      "method": "single_player_champion_appearance"
     },
     {
       "gameId": "LOLTMNT01_303219",
@@ -1174,6 +1174,14 @@
     },
     {
       "gameId": "LOLTMNT01_307101",
+      "championId": "Varus",
+      "player": "Gumayusi",
+      "skin": "T1 Varus",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_explicit_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_307101",
       "championId": "Taliyah",
       "player": "Faker",
       "skin": "Classic Taliyah",
@@ -1198,6 +1206,14 @@
     },
     {
       "gameId": "LOLTMNT01_307103",
+      "championId": "Sivir",
+      "player": "Gumayusi",
+      "skin": "Neo PAX Sivir",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_explicit_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
       "championId": "Sylas",
       "player": "Faker",
       "skin": "Classic Sylas",
@@ -1206,11 +1222,27 @@
     },
     {
       "gameId": "LOLTMNT01_306141",
+      "championId": "Yunara",
+      "player": "Gumayusi",
+      "skin": "Classic Yunara",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_explicit_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_306141",
       "championId": "Viktor",
       "player": "Faker",
       "skin": "Classic Viktor",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_306141",
+      "championId": "Renekton",
+      "player": "Doran",
+      "skin": "Hextech Renekton",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_explicit_appearance"
     },
     {
       "gameId": "LOLTMNT01_306141",
@@ -1235,6 +1267,14 @@
       "skin": "Classic Anivia",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Renata",
+      "player": "Keria",
+      "skin": "Masque of the Black Rose Renata Glasc",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_explicit_appearance"
     },
     {
       "gameId": "LOLTMNT01_307104",

@@ -27,8 +27,18 @@ assigning a skin to a Main Event game:
   The T1 wardrobe list is incomplete for some champions, so repeated picks
   from that list are not assigned without game-specific evidence.
 
-The methods yield **156/800 sourced picks (19.5%)**. These are deductions
-from a firsthand observer's published data, not 156 independent video checks.
+These methods yield 156 sourced picks. An [esports.gg report on T1's grand-final
+skins](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)
+explicitly identifies five additional on-stage selections: T1 Varus, Neo PAX
+Sivir, Classic Yunara, Hextech Renekton, and Masque of the Black Rose Renata
+Glasc. The report distinguishes actual selections from the promotional store
+bundles, so bundle contents alone are not treated as evidence. The five
+player/champion pairs each occur once in the grand final and are joined to
+their exact ChainCC game IDs.
+
+Together, these sources yield **161/800 sourced picks (20.1%)**. The first
+156 are deductions from a firsthand observer's published data, not independent
+video checks. The five finals entries are attributed to the esports.gg report.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -39,7 +49,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 156 entries above; the other 644 cells are blank.
+`skin` column starts with the 161 entries above; the other 639 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
@@ -51,6 +61,7 @@ default color. The entry sheet starts all 800 chroma statuses as `unreviewed`;
 it can later distinguish confirmed default, a named variant, unavailable,
 and visually uncertain chroma choices, each with a source link when reviewed.
 
-Regenerate the overlay with `node scripts/import-worlds-2025-skin-evidence.mjs
-<chaincc-players-2025.csv.gz>` and review the JSON diff. Do not extend the
-singleton mapping to repeat picks without a game-specific source.
+The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
+regenerates the evidence overlay from the ChainCC file and the reviewed source
+claims. Review its JSON diff before syncing this repository. Do not extend
+the singleton mapping to repeat picks without a game-specific source.
