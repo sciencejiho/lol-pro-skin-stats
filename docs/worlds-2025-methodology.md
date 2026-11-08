@@ -36,9 +36,16 @@ bundles, so bundle contents alone are not treated as evidence. The five
 player/champion pairs each occur once in the grand final and are joined to
 their exact ChainCC game IDs.
 
-Together, these sources yield **161/800 sourced picks (20.1%)**. The first
+Gumayusi's [post-tournament stream recap](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/)
+also names the skin he used as Miss Fortune in finals game five. The recap
+uses its former name, Mafia Miss Fortune. [Riot's patch 10.13 notes](https://www.leagueoflegends.com/en-au/news/game-updates/patch-10-13-notes/)
+confirm that its current name is Crime City Miss Fortune. This adds one
+game-specific player statement.
+
+Together, these sources yield **162/800 sourced picks (20.3%)**. The first
 156 are deductions from a firsthand observer's published data, not independent
-video checks. The five finals entries are attributed to the esports.gg report.
+video checks. Five finals entries are attributed to the esports.gg report and
+one to the translated player statement.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -49,7 +56,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 161 entries above; the other 639 cells are blank.
+`skin` column starts with the 162 entries above; the other 638 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
@@ -60,6 +67,22 @@ Chroma is independent from skin. An unreviewed chroma does not imply the
 default color. The entry sheet starts all 800 chroma statuses as `unreviewed`;
 it can later distinguish confirmed default, a named variant, unavailable,
 and visually uncertain chroma choices, each with a source link when reviewed.
+
+## Automated source check
+
+Riot's [Match-V5 issue tracker](https://github.com/RiotGames/developer-relations/issues/754)
+confirms that regular match participants can have `championSkinId`. That does
+not establish access to Worlds tournament-realm matches through Match-V5.
+The public LoL Esports game and live-stats endpoints used for this dataset do
+not include a skin field. [Riot's esports data page](https://riotesportsdata.com/en-us/league-of-legends/)
+says broader community access to the separate LoL Esports Data Portal is still
+being rolled out. No skin value is inferred from an absent field or from a
+promotional skin bundle.
+
+The current proskin.gg site describes archiving matches from 2026 onward.
+Its public matches query returned no 2025 records when checked on 2026-11-08,
+so it cannot fill this tournament. Revisit these sources if their coverage or
+access changes.
 
 The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
 regenerates the evidence overlay from the ChainCC file and the reviewed source

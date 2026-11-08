@@ -1286,6 +1286,14 @@
     },
     {
       "gameId": "LOLTMNT01_307105",
+      "championId": "MissFortune",
+      "player": "Gumayusi",
+      "skin": "Crime City Miss Fortune",
+      "sourceUrl": "https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/",
+      "method": "player_statement"
+    },
+    {
+      "gameId": "LOLTMNT01_307105",
       "championId": "Galio",
       "player": "Faker",
       "skin": "Classic Galio",
