@@ -191,11 +191,20 @@ YouTube-provided chapter titles with `yt-dlp` on 2026-11-08 and selected the
 first chapter at or after 250 seconds whose title suggests early gameplay,
 excluding chapters labelled draft, analysis, or recap. Eight videos returned
 no chapters; seven others had no suitable title. The `review_status` field
-marks 64 of these as **unverified navigation hints**. YouTube chapters are
+marks 63 of these as **unverified navigation hints**. YouTube chapters are
 sometimes inaccurate: one VOD labels its 47-second mark as "Game start"
 despite a preceding draft chapter. In finals game one, the automated 6:27
 "Early game" chapter still shows the stage; we replaced its hint with
 [verified in-game footage at 9:20](https://www.youtube.com/watch?v=sfVFGFfec64&t=560s).
+The [FLY–T1 game at 9:20](https://www.youtube.com/watch?v=6wj8x1ySMzU&t=560s)
+was also checked and shows the in-game clock at 0:52. Its navigation hint
+is now marked verified. We sampled the transition from draft to gameplay in
+that VOD: the large stage and draft splashes show champion art, then the
+broadcast cuts to the game map. It does not show a readable loading screen
+with the ten selected skins. A comment on the observer's post mentions a
+pre-game screen with skin splashes, but that cannot be used as a shortcut for
+this official VOD. The sampled gameplay models were too small to distinguish
+the remaining Mordekaiser skins confidently.
 The other chapter hints can help a reviewer navigate but are not evidence for
 a skin, chroma, or the precise match start time. The original VOD URL remains
 available in every row.
