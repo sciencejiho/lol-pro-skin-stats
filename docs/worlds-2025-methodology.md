@@ -103,11 +103,17 @@ The caption endpoint later returned a Google request-limit page when sampled
 again; the saved scan contains only the 29 candidate passages, so a wider
 transcript search requires fresh access to the official VODs.
 
-Together, these sources yield **178/800 sourced picks (22.3%)**. The first
+An [esports.gg year-end skin review](https://esports.gg/news/league-of-legends/best-league-of-legends-skins-in-2025/)
+also explicitly names KT PerfecT's Sahn-Uzal Mordekaiser in the grand final.
+ChainCC places his only Mordekaiser pick in final game four, so that exact
+game receives the reported skin.
+
+Together, these sources yield **179/800 sourced picks (22.4%)**. The first
 160 are deductions from a firsthand observer's published data, not independent
 video checks. Five finals entries are explicitly named in the esports.gg report,
 nine are cross-checked against the observer's T1 wardrobe, one comes from the
-translated player statement, and three from timed VOD commentary.
+translated player statement, three from timed VOD commentary, and one from
+the year-end report.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -118,7 +124,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 178 entries above; the other 622 cells are blank.
+`skin` column starts with the 179 entries above; the other 621 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
@@ -135,9 +141,9 @@ and visually uncertain chroma choices, each with a source link when reviewed.
 The firsthand tracker reports **Sahn-Uzal Mordekaiser in six of eight**
 appearances, names **Pentakill Mordekaiser** as another used skin, and names
 **King of Clubs Mordekaiser** for Doran. ChainCC places all eight Mordekaiser
-picks in the Main Event; Doran's one pick is already sourced. This leaves one
-Pentakill and six Sahn-Uzal picks among these seven games. Identifying the
-Pentakill game from a clear official VOD view would make all seven assignable
+picks in the Main Event; Doran and PerfecT are now sourced. This leaves one
+Pentakill and five Sahn-Uzal picks among these six games. Identifying the
+Pentakill game from a clear official VOD view would make all six assignable
 by elimination, subject to checking the tracker against the footage. No new
 skin is assigned solely from these aggregate counts.
 
@@ -149,13 +155,12 @@ skin is assigned solely from these aggregate counts.
 | 2025-10-25 | 369 | `LOLTMNT01_300771` | [TES–BLG](https://www.youtube.com/watch?v=V9AgrsUzMHY) |
 | 2025-10-25 | Myrwn | `LOLTMNT01_300794` | [MKOI–T1, visible at 12:05](https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=725s) |
 | 2025-10-31 | Flandre | `LOLTMNT01_303216` | [AL–T1](https://www.youtube.com/watch?v=zvALENbYZjU) |
-| 2025-11-09 | PerfecT | `LOLTMNT01_307104` | [KT–T1, visible at 10:06](https://www.youtube.com/watch?v=l47xGNAvX4M&t=606s) |
 
 Those timestamps show the champion on screen, but the broadcast model is small
 and the first form of [Sahn-Uzal](https://www.youtube.com/watch?v=vEJ3z2QqKf8&t=35s)
 and [Pentakill](https://www.youtube.com/watch?v=8k9lhsLslSw&t=35s) both have
 dark armor and red weapon effects. This visual sample does not identify the
-exception. Keep all seven picks unknown until a clearer game view or direct
+exception. Keep all six picks unknown until a clearer game view or direct
 game-specific source distinguishes the skins.
 
 ## Automated source check
@@ -181,7 +186,7 @@ table has picks, teams, dates, and results rather than skins. The
 [GPTilt esports matches dataset](https://huggingface.co/datasets/gptilt/lol-esports-matches)
 includes a Leaguepedia game ID, Riot game ID, picks, and a VOD field, but its
 published schema has no skin or chroma field. Neither can supply a skin value
-for the 622 still-unidentified Main Event picks.
+for the 621 still-unidentified Main Event picks.
 
 The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
 regenerates the evidence overlay from the ChainCC file and the reviewed source

@@ -1397,6 +1397,14 @@
       "method": "vod_commentary_explicit"
     },
     {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Mordekaiser",
+      "player": "PerfecT",
+      "skin": "Sahn-Uzal Mordekaiser",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/best-league-of-legends-skins-in-2025/",
+      "method": "reported_game_appearance"
+    },
+    {
       "gameId": "LOLTMNT01_307105",
       "championId": "MissFortune",
       "player": "Gumayusi",
