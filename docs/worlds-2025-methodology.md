@@ -45,6 +45,8 @@ because the report notes substitutions; agreement with the observer supplies
 the second source. The observer writes "FNC Jarvan IV"; the canonical client
 name is "Fnatic Jarvan IV". Oner's Viego and Keria's Poppy remain unknown
 because their skins are not identified in that wardrobe list.
+Each of these nine evidence records carries both `sourceUrl` (the bundle
+report) and `supportingSourceUrl` (the observer's wardrobe).
 
 Gumayusi's [post-tournament stream recap](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/)
 also names the skin he used as Miss Fortune in finals game five. The recap

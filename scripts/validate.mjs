@@ -67,5 +67,11 @@ for (const record of evidence.records) {
   assert.equal(pick.player, record.player);
   assert.equal(pick.skin, record.skin);
   assert.equal(pick.source_url, record.sourceUrl);
+  assert.match(record.sourceUrl, /^https:\/\//);
+  if (record.method === 'finals_bundle_tracker_agreement') {
+    assert.match(record.supportingSourceUrl, /^https:\/\//);
+  } else {
+    assert.equal(record.supportingSourceUrl, undefined);
+  }
 }
 console.log(`Validated 80 games, 800 picks, ${evidence.records.length} sourced skins, and 80 YouTube links`);
