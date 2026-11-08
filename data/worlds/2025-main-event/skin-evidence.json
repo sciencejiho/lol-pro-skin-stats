@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": 1,
+  "event": "Worlds",
+  "year": 2025,
+  "stage": "Main Event",
+  "records": [
+    {
+      "gameId": "LOLTMNT01_297691",
+      "championId": "Kaisa",
+      "player": "Eddie",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_296718",
+      "championId": "Ezreal",
+      "player": "Upset",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296718",
+      "championId": "Taliyah",
+      "player": "Poby",
+      "skin": "Classic Taliyah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_297721",
+      "championId": "Rumble",
+      "player": "PerfecT",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296748",
+      "championId": "Kaisa",
+      "player": "Massu",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_296748",
+      "championId": "Xayah",
+      "player": "Gumayusi",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_296748",
+      "championId": "Taliyah",
+      "player": "Faker",
+      "skin": "Classic Taliyah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296748",
+      "championId": "Bard",
+      "player": "Keria",
+      "skin": "T1 Bard",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_296764",
+      "championId": "Kaisa",
+      "player": "Viper",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_297767",
+      "championId": "Xayah",
+      "player": "Hans Sama",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_297767",
+      "championId": "Azir",
+      "player": "Caps",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_297767",
+      "championId": "Aatrox",
+      "player": "369",
+      "skin": "Prestige Blood Moon Aatrox",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296795",
+      "championId": "Lucian",
+      "player": "Ruler",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_296795",
+      "championId": "Ambessa",
+      "player": "Kiin",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296795",
+      "championId": "Rumble",
+      "player": "Azhi",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296903",
+      "championId": "Kaisa",
+      "player": "Morttheus",
+      "skin": "Immortalized Legend Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_296921",
+      "championId": "Ezreal",
+      "player": "Eddie",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296921",
+      "championId": "Rumble",
+      "player": "Hiro02",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_297965",
+      "championId": "Kaisa",
+      "player": "FBI",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_297965",
+      "championId": "Ambessa",
+      "player": "Dhokla",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296949",
+      "championId": "Caitlyn",
+      "player": "Gumayusi",
+      "skin": "Arcane Enforcer Caitlyn",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_296949",
+      "championId": "Cassiopeia",
+      "player": "Faker",
+      "skin": "Classic Cassiopeia",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_297998",
+      "championId": "Kaisa",
+      "player": "Ruler",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_297998",
+      "championId": "Taliyah",
+      "player": "Shanks",
+      "skin": "Crystalis Motus Taliyah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_296976",
+      "championId": "Xayah",
+      "player": "Elk",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_296976",
+      "championId": "Aurora",
+      "player": "Poby",
+      "skin": "Classic Aurora",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296993",
+      "championId": "Ezreal",
+      "player": "Viper",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_296993",
+      "championId": "Ambessa",
+      "player": "Zeus",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298178",
+      "championId": "Rumble",
+      "player": "PerfecT",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298178",
+      "championId": "Kaisa",
+      "player": "JackeyLove",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_298178",
+      "championId": "Ambessa",
+      "player": "369",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298180",
+      "championId": "Xayah",
+      "player": "JackeyLove",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_298180",
+      "championId": "Ezreal",
+      "player": "deokdam",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299154",
+      "championId": "Ambessa",
+      "player": "Flandre",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299154",
+      "championId": "Lucian",
+      "player": "Doggo",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_299154",
+      "championId": "Rumble",
+      "player": "Rest",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298440",
+      "championId": "Azir",
+      "player": "Quad",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298440",
+      "championId": "Kaisa",
+      "player": "Eddie",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_299401",
+      "championId": "Kaisa",
+      "player": "Gumayusi",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_299401",
+      "championId": "Aurora",
+      "player": "Faker",
+      "skin": "Classic Aurora",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299401",
+      "championId": "Ambessa",
+      "player": "Doran",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298463",
+      "championId": "Ezreal",
+      "player": "Elk",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298478",
+      "championId": "Lucian",
+      "player": "Viper",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_298478",
+      "championId": "Azir",
+      "player": "Zeka",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298640",
+      "championId": "Xayah",
+      "player": "Upset",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_298640",
+      "championId": "Cassiopeia",
+      "player": "Poby",
+      "skin": "Classic Cassiopeia",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298640",
+      "championId": "Ambessa",
+      "player": "Oscarinin",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299650",
+      "championId": "Kaisa",
+      "player": "Upset",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_299650",
+      "championId": "Viktor",
+      "player": "Poby",
+      "skin": "Classic Viktor",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299650",
+      "championId": "Rumble",
+      "player": "Oscarinin",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298653",
+      "championId": "Ezreal",
+      "player": "Upset",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_298653",
+      "championId": "Azir",
+      "player": "Poby",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299677",
+      "championId": "Ambessa",
+      "player": "Azhi",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299686",
+      "championId": "Rumble",
+      "player": "Azhi",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299686",
+      "championId": "Ezreal",
+      "player": "Morttheus",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_299703",
+      "championId": "Xayah",
+      "player": "Betty",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301255",
+      "championId": "Ezreal",
+      "player": "Doggo",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301255",
+      "championId": "Azir",
+      "player": "Zeka",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301255",
+      "championId": "Rumble",
+      "player": "Zeus",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301282",
+      "championId": "Lucian",
+      "player": "Massu",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301282",
+      "championId": "Rumble",
+      "player": "Bwipo",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301282",
+      "championId": "Xayah",
+      "player": "Hans Sama",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301286",
+      "championId": "Azir",
+      "player": "Quad",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301286",
+      "championId": "DrMundo",
+      "player": "SkewMond",
+      "skin": "Corporate Mundo",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301407",
+      "championId": "Ambessa",
+      "player": "Myrwn",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301409",
+      "championId": "Ezreal",
+      "player": "Supa",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301411",
+      "championId": "Kaisa",
+      "player": "Eddie",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301411",
+      "championId": "Xayah",
+      "player": "Supa",
+      "skin": "SSG Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301411",
+      "championId": "Ahri",
+      "player": "Jojopyun",
+      "skin": "Immortalized Legend Ahri",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_301421",
+      "championId": "Lucian",
+      "player": "Ruler",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_300439",
+      "championId": "Azir",
+      "player": "Creme",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300439",
+      "championId": "Rumble",
+      "player": "369",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300439",
+      "championId": "Kaisa",
+      "player": "Ruler",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_300439",
+      "championId": "Ornn",
+      "player": "Kiin",
+      "skin": "Choo-Choo Ornn",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_300568",
+      "championId": "Kaisa",
+      "player": "Elk",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_300568",
+      "championId": "Azir",
+      "player": "Mireu",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300568",
+      "championId": "Ambessa",
+      "player": "Boal",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301547",
+      "championId": "Rumble",
+      "player": "Bin",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300584",
+      "championId": "Sylas",
+      "player": "Quid",
+      "skin": "Prestige T1 Sylas",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_300584",
+      "championId": "Ambessa",
+      "player": "Dhokla",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300584",
+      "championId": "Corki",
+      "player": "Gumayusi",
+      "skin": "Arcade Corki",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_300584",
+      "championId": "Taliyah",
+      "player": "Faker",
+      "skin": "Classic Taliyah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300598",
+      "championId": "Kaisa",
+      "player": "FBI",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_300598",
+      "championId": "Rumble",
+      "player": "Dhokla",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300598",
+      "championId": "Xayah",
+      "player": "Gumayusi",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_300598",
+      "championId": "Orianna",
+      "player": "Faker",
+      "skin": "Classic Orianna",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300730",
+      "championId": "Azir",
+      "player": "HongQ",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300730",
+      "championId": "Rumble",
+      "player": "Driver",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300740",
+      "championId": "Lucian",
+      "player": "Massu",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301758",
+      "championId": "Lucian",
+      "player": "JackeyLove",
+      "skin": "PROJECT: Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_301758",
+      "championId": "Rumble",
+      "player": "369",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300765",
+      "championId": "Azir",
+      "player": "Creme",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_300771",
+      "championId": "Xayah",
+      "player": "Elk",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_300794",
+      "championId": "Qiyana",
+      "player": "Oner",
+      "skin": "Prestige True Damage Qiyana",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_300794",
+      "championId": "Azir",
+      "player": "Faker",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301778",
+      "championId": "Ryze",
+      "player": "Faker",
+      "skin": "Classic Ryze",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_301778",
+      "championId": "Ambessa",
+      "player": "Myrwn",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303065",
+      "championId": "Ezreal",
+      "player": "Ruler",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303065",
+      "championId": "Aatrox",
+      "player": "Kiin",
+      "skin": "Prestige Blood Moon Aatrox",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303066",
+      "championId": "Azir",
+      "player": "Zeka",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303066",
+      "championId": "Ambessa",
+      "player": "Zeus",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303068",
+      "championId": "Rumble",
+      "player": "Zeus",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303068",
+      "championId": "Kaisa",
+      "player": "Ruler",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_303118",
+      "championId": "Ezreal",
+      "player": "deokdam",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303118",
+      "championId": "Rumble",
+      "player": "PerfecT",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303120",
+      "championId": "Kaisa",
+      "player": "Doggo",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_303120",
+      "championId": "Azir",
+      "player": "HongQ",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_302227",
+      "championId": "Ambessa",
+      "player": "369",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_302227",
+      "championId": "Corki",
+      "player": "Hans Sama",
+      "skin": "Classic Corki",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_303163",
+      "championId": "Rumble",
+      "player": "369",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303163",
+      "championId": "Lucian",
+      "player": "Hans Sama",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_303163",
+      "championId": "DrMundo",
+      "player": "SkewMond",
+      "skin": "Corporate Mundo",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303164",
+      "championId": "Ezreal",
+      "player": "JackeyLove",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303164",
+      "championId": "Aatrox",
+      "player": "369",
+      "skin": "Prestige Blood Moon Aatrox",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303171",
+      "championId": "Xayah",
+      "player": "JackeyLove",
+      "skin": "Cosmic Dusk Xayah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_303213",
+      "championId": "Ezreal",
+      "player": "Hope",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303213",
+      "championId": "Taliyah",
+      "player": "Faker",
+      "skin": "Classic Taliyah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_302251",
+      "championId": "Ambessa",
+      "player": "Flandre",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_302251",
+      "championId": "Draven",
+      "player": "Gumayusi",
+      "skin": "Gladiator Draven",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_302251",
+      "championId": "Anivia",
+      "player": "Faker",
+      "skin": "Classic Anivia",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_302251",
+      "championId": "Nautilus",
+      "player": "Keria",
+      "skin": "Subterranean Nautilus",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_302251",
+      "championId": "Rumble",
+      "player": "Doran",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303214",
+      "championId": "Ziggs",
+      "player": "Gumayusi",
+      "skin": "Master Arcanist Ziggs",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_303214",
+      "championId": "Sylas",
+      "player": "Faker",
+      "skin": "Classic Sylas",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303214",
+      "championId": "Blitzcrank",
+      "player": "Keria",
+      "skin": "Space Groove Blitz & Crank",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_303216",
+      "championId": "Kaisa",
+      "player": "Gumayusi",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_303216",
+      "championId": "Viktor",
+      "player": "Faker",
+      "skin": "Classic Viktor",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303219",
+      "championId": "Aatrox",
+      "player": "Flandre",
+      "skin": "Prestige Blood Moon Aatrox",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303219",
+      "championId": "DrMundo",
+      "player": "Oner",
+      "skin": "Corporate Mundo",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303219",
+      "championId": "Mel",
+      "player": "Faker",
+      "skin": "Classic Mel",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303219",
+      "championId": "Seraphine",
+      "player": "Keria",
+      "skin": "Prestige Ocean Song Seraphine",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_303255",
+      "championId": "Rumble",
+      "player": "PerfecT",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303257",
+      "championId": "Ezreal",
+      "player": "Ruler",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303257",
+      "championId": "Ambessa",
+      "player": "Kiin",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303257",
+      "championId": "Varus",
+      "player": "deokdam",
+      "skin": "Snow Moon Varus",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_303258",
+      "championId": "Azir",
+      "player": "Bdd",
+      "skin": "Classic Azir",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303258",
+      "championId": "Aatrox",
+      "player": "Kiin",
+      "skin": "Prestige Blood Moon Aatrox",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_302318",
+      "championId": "Lucian",
+      "player": "Ruler",
+      "skin": "High Noon Lucian",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_302318",
+      "championId": "DrMundo",
+      "player": "Cuzz",
+      "skin": "Corporate Mundo",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303337",
+      "championId": "Orianna",
+      "player": "Faker",
+      "skin": "Classic Orianna",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303337",
+      "championId": "Mordekaiser",
+      "player": "Doran",
+      "skin": "King of Clubs Mordekaiser",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_303341",
+      "championId": "Ambessa",
+      "player": "369",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303341",
+      "championId": "Kaisa",
+      "player": "Gumayusi",
+      "skin": "iG Kai'Sa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "one_named_exception"
+    },
+    {
+      "gameId": "LOLTMNT01_303341",
+      "championId": "Galio",
+      "player": "Faker",
+      "skin": "Classic Galio",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_303342",
+      "championId": "Mel",
+      "player": "Faker",
+      "skin": "Classic Mel",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307101",
+      "championId": "Rumble",
+      "player": "PerfecT",
+      "skin": "Super Galaxy Rumble",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307101",
+      "championId": "Taliyah",
+      "player": "Faker",
+      "skin": "Classic Taliyah",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307101",
+      "championId": "Ambessa",
+      "player": "Doran",
+      "skin": "Classic Ambessa",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
+      "championId": "Ezreal",
+      "player": "deokdam",
+      "skin": "Striker Ezreal",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
+      "championId": "Sylas",
+      "player": "Faker",
+      "skin": "Classic Sylas",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_306141",
+      "championId": "Viktor",
+      "player": "Faker",
+      "skin": "Classic Viktor",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_306141",
+      "championId": "DrMundo",
+      "player": "Cuzz",
+      "skin": "Corporate Mundo",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_champion_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Kalista",
+      "player": "Gumayusi",
+      "skin": "Marauder Kalista",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Anivia",
+      "player": "Faker",
+      "skin": "Classic Anivia",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Gragas",
+      "player": "Doran",
+      "skin": "Oktoberfest Gragas",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_307105",
+      "championId": "Galio",
+      "player": "Faker",
+      "skin": "Classic Galio",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "all_player_appearances"
+    }
+  ]
+}

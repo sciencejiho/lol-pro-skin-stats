@@ -1,0 +1,7690 @@
+{
+  "schemaVersion": 1,
+  "event": "Worlds",
+  "year": 2025,
+  "stage": "Main Event",
+  "sourceUrl": "https://chaincc.lol/free/data",
+  "sourceLicense": "CC BY 4.0",
+  "games": [
+    {
+      "id": "LOLTMNT01_297691",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Team Secret Whales",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Eddie",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Team Secret Whales",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Hizto",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Team Secret Whales",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Dire",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "Team Secret Whales",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Taki",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "Team Secret Whales",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Hiro02",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Team Secret Whales",
+          "player": "Morttheus",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Team Secret Whales",
+          "player": "Disamis",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Team Secret Whales",
+          "player": "Mireu",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Team Secret Whales",
+          "player": "Trymbi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Team Secret Whales",
+          "player": "Boal",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296718",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Caitlyn",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Fnatic",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Fnatic",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Fnatic",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Fnatic",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Fnatic",
+          "player": "Driver",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ezreal",
+          "team": "Fnatic",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Upset",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Fnatic",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Razork",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Fnatic",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Poby",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "Fnatic",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Mikyx",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Fnatic",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Oscarinin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_297721",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Caitlyn",
+          "team": "KT Rolster",
+          "opponent": "Movistar KOI",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "KT Rolster",
+          "opponent": "Movistar KOI",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "KT Rolster",
+          "opponent": "Movistar KOI",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "KT Rolster",
+          "opponent": "Movistar KOI",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "KT Rolster",
+          "opponent": "Movistar KOI",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Movistar KOI",
+          "opponent": "KT Rolster",
+          "player": "Supa",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Movistar KOI",
+          "opponent": "KT Rolster",
+          "player": "Elyoya",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Movistar KOI",
+          "opponent": "KT Rolster",
+          "player": "Jojopyun",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Lulu",
+          "team": "Movistar KOI",
+          "opponent": "KT Rolster",
+          "player": "Alvaro",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Movistar KOI",
+          "opponent": "KT Rolster",
+          "player": "Myrwn",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_297733",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Caitlyn",
+          "team": "Bilibili Gaming",
+          "opponent": "100 Thieves",
+          "player": "Elk",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Bilibili Gaming",
+          "opponent": "100 Thieves",
+          "player": "Beichuan",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Bilibili Gaming",
+          "opponent": "100 Thieves",
+          "player": "Knight",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Elise",
+          "team": "Bilibili Gaming",
+          "opponent": "100 Thieves",
+          "player": "ON",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Bilibili Gaming",
+          "opponent": "100 Thieves",
+          "player": "Bin",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ziggs",
+          "team": "100 Thieves",
+          "opponent": "Bilibili Gaming",
+          "player": "FBI",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "100 Thieves",
+          "opponent": "Bilibili Gaming",
+          "player": "River",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "100 Thieves",
+          "opponent": "Bilibili Gaming",
+          "player": "Quid",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "100 Thieves",
+          "opponent": "Bilibili Gaming",
+          "player": "Eyla",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "100 Thieves",
+          "opponent": "Bilibili Gaming",
+          "player": "Dhokla",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296748",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "FlyQuest",
+          "opponent": "T1",
+          "player": "Massu",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "FlyQuest",
+          "opponent": "T1",
+          "player": "Inspired",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "FlyQuest",
+          "opponent": "T1",
+          "player": "Quad",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "FlyQuest",
+          "opponent": "T1",
+          "player": "Busio",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "FlyQuest",
+          "opponent": "T1",
+          "player": "Bwipo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "T1",
+          "opponent": "FlyQuest",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "T1",
+          "opponent": "FlyQuest",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "T1",
+          "opponent": "FlyQuest",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "T1",
+          "opponent": "FlyQuest",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "T1",
+          "opponent": "FlyQuest",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296764",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Hanwha Life Esports",
+          "opponent": "Anyone's Legend",
+          "player": "Viper",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Hanwha Life Esports",
+          "opponent": "Anyone's Legend",
+          "player": "Peanut",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Hanwha Life Esports",
+          "opponent": "Anyone's Legend",
+          "player": "Zeka",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Hanwha Life Esports",
+          "opponent": "Anyone's Legend",
+          "player": "Delight",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Hanwha Life Esports",
+          "opponent": "Anyone's Legend",
+          "player": "Zeus",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Anyone's Legend",
+          "opponent": "Hanwha Life Esports",
+          "player": "Hope",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "Anyone's Legend",
+          "opponent": "Hanwha Life Esports",
+          "player": "Tarzan",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "Anyone's Legend",
+          "opponent": "Hanwha Life Esports",
+          "player": "Shanks",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Anyone's Legend",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kael",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Anyone's Legend",
+          "opponent": "Hanwha Life Esports",
+          "player": "Flandre",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_297767",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Xayah",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Hans Sama",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "SkewMond",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Caps",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Labrov",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "BrokenBlade",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "JackeyLove",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Kanavi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Creme",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Karma",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Hang",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aatrox",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "369",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296795",
+      "date": "2025-10-15",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "Gen.G",
+          "opponent": "PSG Talon",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Gen.G",
+          "opponent": "PSG Talon",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Gen.G",
+          "opponent": "PSG Talon",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Gen.G",
+          "opponent": "PSG Talon",
+          "player": "Duro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Gen.G",
+          "opponent": "PSG Talon",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "PSG Talon",
+          "opponent": "Gen.G",
+          "player": "Betty",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "PSG Talon",
+          "opponent": "Gen.G",
+          "player": "Karsa",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Swain",
+          "team": "PSG Talon",
+          "opponent": "Gen.G",
+          "player": "Maple",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "PSG Talon",
+          "opponent": "Gen.G",
+          "player": "Woody",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "PSG Talon",
+          "opponent": "Gen.G",
+          "player": "Azhi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296903",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Vivo Keyd Stars",
+          "opponent": "FlyQuest",
+          "player": "Morttheus",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Vivo Keyd Stars",
+          "opponent": "FlyQuest",
+          "player": "Disamis",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Vivo Keyd Stars",
+          "opponent": "FlyQuest",
+          "player": "Mireu",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "Vivo Keyd Stars",
+          "opponent": "FlyQuest",
+          "player": "Trymbi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Vivo Keyd Stars",
+          "opponent": "FlyQuest",
+          "player": "Boal",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "FlyQuest",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Massu",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "FlyQuest",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Inspired",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "FlyQuest",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Quad",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "FlyQuest",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Busio",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "FlyQuest",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Bwipo",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296921",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Caitlyn",
+          "team": "KT Rolster",
+          "opponent": "Team Secret Whales",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "KT Rolster",
+          "opponent": "Team Secret Whales",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "KT Rolster",
+          "opponent": "Team Secret Whales",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "KT Rolster",
+          "opponent": "Team Secret Whales",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "KT Rolster",
+          "opponent": "Team Secret Whales",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ezreal",
+          "team": "Team Secret Whales",
+          "opponent": "KT Rolster",
+          "player": "Eddie",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Team Secret Whales",
+          "opponent": "KT Rolster",
+          "player": "Hizto",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Team Secret Whales",
+          "opponent": "KT Rolster",
+          "player": "Dire",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Team Secret Whales",
+          "opponent": "KT Rolster",
+          "player": "Taki",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Team Secret Whales",
+          "opponent": "KT Rolster",
+          "player": "Hiro02",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296936",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Caitlyn",
+          "team": "Movistar KOI",
+          "opponent": "G2 Esports",
+          "player": "Supa",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Movistar KOI",
+          "opponent": "G2 Esports",
+          "player": "Elyoya",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Movistar KOI",
+          "opponent": "G2 Esports",
+          "player": "Jojopyun",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Movistar KOI",
+          "opponent": "G2 Esports",
+          "player": "Alvaro",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Jax",
+          "team": "Movistar KOI",
+          "opponent": "G2 Esports",
+          "player": "Myrwn",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "G2 Esports",
+          "opponent": "Movistar KOI",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "G2 Esports",
+          "opponent": "Movistar KOI",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leblanc",
+          "team": "G2 Esports",
+          "opponent": "Movistar KOI",
+          "player": "Caps",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "G2 Esports",
+          "opponent": "Movistar KOI",
+          "player": "Labrov",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "G2 Esports",
+          "opponent": "Movistar KOI",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_297965",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Yunara",
+          "team": "Top Esports",
+          "opponent": "100 Thieves",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Top Esports",
+          "opponent": "100 Thieves",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Top Esports",
+          "opponent": "100 Thieves",
+          "player": "Creme",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Top Esports",
+          "opponent": "100 Thieves",
+          "player": "Hang",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Top Esports",
+          "opponent": "100 Thieves",
+          "player": "369",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "100 Thieves",
+          "opponent": "Top Esports",
+          "player": "FBI",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "100 Thieves",
+          "opponent": "Top Esports",
+          "player": "River",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "100 Thieves",
+          "opponent": "Top Esports",
+          "player": "Quid",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "100 Thieves",
+          "opponent": "Top Esports",
+          "player": "Eyla",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "100 Thieves",
+          "opponent": "Top Esports",
+          "player": "Dhokla",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296949",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Draven",
+          "team": "CTBC Flying Oyster",
+          "opponent": "T1",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "CTBC Flying Oyster",
+          "opponent": "T1",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "CTBC Flying Oyster",
+          "opponent": "T1",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "CTBC Flying Oyster",
+          "opponent": "T1",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "CTBC Flying Oyster",
+          "opponent": "T1",
+          "player": "Driver",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "T1",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "T1",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Oner",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "T1",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Faker",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "T1",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Keria",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "T1",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Doran",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_297998",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Gen.G",
+          "opponent": "Anyone's Legend",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Gen.G",
+          "opponent": "Anyone's Legend",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Gen.G",
+          "opponent": "Anyone's Legend",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Gen.G",
+          "opponent": "Anyone's Legend",
+          "player": "Duro",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Gen.G",
+          "opponent": "Anyone's Legend",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "Anyone's Legend",
+          "opponent": "Gen.G",
+          "player": "Hope",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Anyone's Legend",
+          "opponent": "Gen.G",
+          "player": "Tarzan",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Anyone's Legend",
+          "opponent": "Gen.G",
+          "player": "Shanks",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Anyone's Legend",
+          "opponent": "Gen.G",
+          "player": "Kael",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Anyone's Legend",
+          "opponent": "Gen.G",
+          "player": "Flandre",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296976",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Xayah",
+          "team": "Bilibili Gaming",
+          "opponent": "Fnatic",
+          "player": "Elk",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Naafiri",
+          "team": "Bilibili Gaming",
+          "opponent": "Fnatic",
+          "player": "Shad0w",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Bilibili Gaming",
+          "opponent": "Fnatic",
+          "player": "Knight",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Bilibili Gaming",
+          "opponent": "Fnatic",
+          "player": "ON",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "Bilibili Gaming",
+          "opponent": "Fnatic",
+          "player": "Bin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "Fnatic",
+          "opponent": "Bilibili Gaming",
+          "player": "Upset",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Fnatic",
+          "opponent": "Bilibili Gaming",
+          "player": "Razork",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Fnatic",
+          "opponent": "Bilibili Gaming",
+          "player": "Poby",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Morgana",
+          "team": "Fnatic",
+          "opponent": "Bilibili Gaming",
+          "player": "Mikyx",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Fnatic",
+          "opponent": "Bilibili Gaming",
+          "player": "Oscarinin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_296993",
+      "date": "2025-10-16",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "Hanwha Life Esports",
+          "opponent": "PSG Talon",
+          "player": "Viper",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Hanwha Life Esports",
+          "opponent": "PSG Talon",
+          "player": "Peanut",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Hanwha Life Esports",
+          "opponent": "PSG Talon",
+          "player": "Zeka",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Hanwha Life Esports",
+          "opponent": "PSG Talon",
+          "player": "Delight",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Hanwha Life Esports",
+          "opponent": "PSG Talon",
+          "player": "Zeus",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "PSG Talon",
+          "opponent": "Hanwha Life Esports",
+          "player": "Betty",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Naafiri",
+          "team": "PSG Talon",
+          "opponent": "Hanwha Life Esports",
+          "player": "Karsa",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "PSG Talon",
+          "opponent": "Hanwha Life Esports",
+          "player": "Maple",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Karma",
+          "team": "PSG Talon",
+          "opponent": "Hanwha Life Esports",
+          "player": "Woody",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yorick",
+          "team": "PSG Talon",
+          "opponent": "Hanwha Life Esports",
+          "player": "Azhi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298178",
+      "date": "2025-10-17",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "JackeyLove",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "Kanavi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Annie",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "Creme",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "Hang",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "369",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298180",
+      "date": "2025-10-17",
+      "picks": [
+        {
+          "championId": "Xayah",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Zed",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "Creme",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "Hang",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Top Esports",
+          "opponent": "KT Rolster",
+          "player": "369",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ezreal",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "deokdam",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "Bdd",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "Peter",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "KT Rolster",
+          "opponent": "Top Esports",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299149",
+      "date": "2025-10-17",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nami",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Rest",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Hope",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Maokai",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Tarzan",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Shanks",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Kael",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Kled",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Flandre",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299154",
+      "date": "2025-10-17",
+      "picks": [
+        {
+          "championId": "Ziggs",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Hope",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Tarzan",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Shanks",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Kael",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Flandre",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Lucian",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Doggo",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "JunJia",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Akali",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "HongQ",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Kaiwing",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Rest",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299160",
+      "date": "2025-10-17",
+      "picks": [
+        {
+          "championId": "MissFortune",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Anyone's Legend",
+          "player": "Rest",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Jhin",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Hope",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Tarzan",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leblanc",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Shanks",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Kael",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Anyone's Legend",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Flandre",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298440",
+      "date": "2025-10-18",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "FlyQuest",
+          "opponent": "Team Secret Whales",
+          "player": "Massu",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "FlyQuest",
+          "opponent": "Team Secret Whales",
+          "player": "Inspired",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "FlyQuest",
+          "opponent": "Team Secret Whales",
+          "player": "Quad",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "FlyQuest",
+          "opponent": "Team Secret Whales",
+          "player": "Busio",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "FlyQuest",
+          "opponent": "Team Secret Whales",
+          "player": "Bwipo",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "Team Secret Whales",
+          "opponent": "FlyQuest",
+          "player": "Eddie",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Team Secret Whales",
+          "opponent": "FlyQuest",
+          "player": "Hizto",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Team Secret Whales",
+          "opponent": "FlyQuest",
+          "player": "Dire",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Team Secret Whales",
+          "opponent": "FlyQuest",
+          "player": "Taki",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "Team Secret Whales",
+          "opponent": "FlyQuest",
+          "player": "Hiro02",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299401",
+      "date": "2025-10-18",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "Gen.G",
+          "opponent": "T1",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Gen.G",
+          "opponent": "T1",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Gen.G",
+          "opponent": "T1",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Gen.G",
+          "opponent": "T1",
+          "player": "Duro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Gen.G",
+          "opponent": "T1",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "T1",
+          "opponent": "Gen.G",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "T1",
+          "opponent": "Gen.G",
+          "player": "Oner",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "T1",
+          "opponent": "Gen.G",
+          "player": "Faker",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "T1",
+          "opponent": "Gen.G",
+          "player": "Keria",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "T1",
+          "opponent": "Gen.G",
+          "player": "Doran",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298463",
+      "date": "2025-10-18",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "Bilibili Gaming",
+          "opponent": "G2 Esports",
+          "player": "Elk",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Bilibili Gaming",
+          "opponent": "G2 Esports",
+          "player": "Shad0w",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Bilibili Gaming",
+          "opponent": "G2 Esports",
+          "player": "Knight",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Bilibili Gaming",
+          "opponent": "G2 Esports",
+          "player": "ON",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Bilibili Gaming",
+          "opponent": "G2 Esports",
+          "player": "Bin",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "G2 Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "G2 Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Anivia",
+          "team": "G2 Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Caps",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "G2 Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Labrov",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "G2 Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298478",
+      "date": "2025-10-18",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "Hanwha Life Esports",
+          "opponent": "100 Thieves",
+          "player": "Viper",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Hanwha Life Esports",
+          "opponent": "100 Thieves",
+          "player": "Peanut",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Hanwha Life Esports",
+          "opponent": "100 Thieves",
+          "player": "Zeka",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Hanwha Life Esports",
+          "opponent": "100 Thieves",
+          "player": "Delight",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Hanwha Life Esports",
+          "opponent": "100 Thieves",
+          "player": "Zeus",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Senna",
+          "team": "100 Thieves",
+          "opponent": "Hanwha Life Esports",
+          "player": "FBI",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "100 Thieves",
+          "opponent": "Hanwha Life Esports",
+          "player": "River",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "100 Thieves",
+          "opponent": "Hanwha Life Esports",
+          "player": "Quid",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "100 Thieves",
+          "opponent": "Hanwha Life Esports",
+          "player": "Eyla",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "100 Thieves",
+          "opponent": "Hanwha Life Esports",
+          "player": "Dhokla",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298640",
+      "date": "2025-10-19",
+      "picks": [
+        {
+          "championId": "Zeri",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Supa",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Elyoya",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Jojopyun",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Alvaro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Myrwn",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Upset",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Razork",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Poby",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Mikyx",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Oscarinin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299650",
+      "date": "2025-10-19",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Upset",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Razork",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Poby",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Mikyx",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Oscarinin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Supa",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Elyoya",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Kassadin",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Jojopyun",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Alvaro",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Myrwn",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_298653",
+      "date": "2025-10-19",
+      "picks": [
+        {
+          "championId": "Vayne",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Supa",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Elyoya",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Jojopyun",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Alvaro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "Movistar KOI",
+          "opponent": "Fnatic",
+          "player": "Myrwn",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ezreal",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Upset",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Razork",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Poby",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Mikyx",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Jax",
+          "team": "Fnatic",
+          "opponent": "Movistar KOI",
+          "player": "Oscarinin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299677",
+      "date": "2025-10-19",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Betty",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Karsa",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Maple",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Woody",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Azhi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Morttheus",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Disamis",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Mireu",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Trymbi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Boal",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299686",
+      "date": "2025-10-19",
+      "picks": [
+        {
+          "championId": "Varus",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Betty",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Karsa",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Maple",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Woody",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Azhi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ezreal",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Morttheus",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Disamis",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Annie",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Mireu",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Trymbi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Boal",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_299703",
+      "date": "2025-10-19",
+      "picks": [
+        {
+          "championId": "Yunara",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Morttheus",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nocturne",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Disamis",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Akali",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Mireu",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Trymbi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Vivo Keyd Stars",
+          "opponent": "PSG Talon",
+          "player": "Boal",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Betty",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Naafiri",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Karsa",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Maple",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Woody",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "PSG Talon",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Azhi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301255",
+      "date": "2025-10-22",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nami",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "Driver",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Viper",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Peanut",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Zeka",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Delight",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Zeus",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301259",
+      "date": "2025-10-22",
+      "picks": [
+        {
+          "championId": "Ziggs",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "CTBC Flying Oyster",
+          "opponent": "Hanwha Life Esports",
+          "player": "Rest",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Viper",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Peanut",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Zeka",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Delight",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Hanwha Life Esports",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Zeus",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301279",
+      "date": "2025-10-22",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Massu",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Inspired",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Quad",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Busio",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Bwipo",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Maokai",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Caps",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Labrov",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301282",
+      "date": "2025-10-22",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Massu",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Inspired",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Annie",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Quad",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Soraka",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Busio",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Bwipo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Caps",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Labrov",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301286",
+      "date": "2025-10-22",
+      "picks": [
+        {
+          "championId": "Jhin",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Massu",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sejuani",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Inspired",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Quad",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Busio",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "FlyQuest",
+          "opponent": "G2 Esports",
+          "player": "Bwipo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "DrMundo",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Caps",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "Labrov",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Jax",
+          "team": "G2 Esports",
+          "opponent": "FlyQuest",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301407",
+      "date": "2025-10-23",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Supa",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Elyoya",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Jojopyun",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Alvaro",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Myrwn",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Eddie",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Hizto",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Dire",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Taki",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Pun",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301409",
+      "date": "2025-10-23",
+      "picks": [
+        {
+          "championId": "Caitlyn",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Eddie",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Hizto",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Dire",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Taki",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Pun",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ezreal",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Supa",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Elyoya",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Jojopyun",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Alvaro",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Myrwn",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301411",
+      "date": "2025-10-23",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Eddie",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Hizto",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Dire",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Taki",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Jayce",
+          "team": "Team Secret Whales",
+          "opponent": "Movistar KOI",
+          "player": "Hiro02",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Supa",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Naafiri",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Elyoya",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ahri",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Jojopyun",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Alvaro",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Movistar KOI",
+          "opponent": "Team Secret Whales",
+          "player": "Myrwn",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301421",
+      "date": "2025-10-23",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Duro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "JackeyLove",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "Kanavi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "Creme",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "Hang",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "369",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300439",
+      "date": "2025-10-23",
+      "picks": [
+        {
+          "championId": "Yunara",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "Creme",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "Hang",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Top Esports",
+          "opponent": "Gen.G",
+          "player": "369",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Ruler",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Canyon",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yone",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Chovy",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Duro",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "Gen.G",
+          "opponent": "Top Esports",
+          "player": "Kiin",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300568",
+      "date": "2025-10-24",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Elk",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Shad0w",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ziggs",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Knight",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "ON",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Jax",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Bin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Morttheus",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Disamis",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Mireu",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Karma",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Trymbi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Boal",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301547",
+      "date": "2025-10-24",
+      "picks": [
+        {
+          "championId": "Sivir",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Morttheus",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Disamis",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Mireu",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Trymbi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Vivo Keyd Stars",
+          "opponent": "Bilibili Gaming",
+          "player": "Boal",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Elk",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Shad0w",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leblanc",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Knight",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "ON",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Bilibili Gaming",
+          "opponent": "Vivo Keyd Stars",
+          "player": "Bin",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300584",
+      "date": "2025-10-24",
+      "picks": [
+        {
+          "championId": "Varus",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "FBI",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "River",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sylas",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "Quid",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "Eyla",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "Dhokla",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300598",
+      "date": "2025-10-24",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "FBI",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "River",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Akali",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "Quid",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "Eyla",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "100 Thieves",
+          "opponent": "T1",
+          "player": "Dhokla",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "T1",
+          "opponent": "100 Thieves",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300730",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "Driver",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Jhin",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Massu",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Inspired",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Quad",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Busio",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Bwipo",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300740",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Massu",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Inspired",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Annie",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Quad",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nami",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Busio",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "FlyQuest",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Bwipo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Draven",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "Doggo",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "JunJia",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "HongQ",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "Kaiwing",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "CTBC Flying Oyster",
+          "opponent": "FlyQuest",
+          "player": "Rest",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301758",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Creme",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Hang",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "369",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yunara",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Elk",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Shad0w",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ziggs",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Knight",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "ON",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Bin",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300765",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Sivir",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Elk",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Shad0w",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Knight",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "ON",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Bin",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "JackeyLove",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Kanavi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Creme",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Hang",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "369",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300771",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Smolder",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Creme",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "Hang",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "Top Esports",
+          "opponent": "Bilibili Gaming",
+          "player": "369",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Elk",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Beichuan",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Knight",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "ON",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Jax",
+          "team": "Bilibili Gaming",
+          "opponent": "Top Esports",
+          "player": "Bin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_300794",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Supa",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Elyoya",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Jojopyun",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Alvaro",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Myrwn",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_301778",
+      "date": "2025-10-25",
+      "picks": [
+        {
+          "championId": "Sivir",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Gumayusi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Oner",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Faker",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Keria",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "T1",
+          "opponent": "Movistar KOI",
+          "player": "Doran",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Vayne",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Supa",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Elyoya",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Jojopyun",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Alvaro",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Movistar KOI",
+          "opponent": "T1",
+          "player": "Myrwn",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303065",
+      "date": "2025-10-28",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Duro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aatrox",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Viper",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sejuani",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Peanut",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeka",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Delight",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeus",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303066",
+      "date": "2025-10-28",
+      "picks": [
+        {
+          "championId": "Ziggs",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Viper",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Peanut",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeka",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Delight",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeus",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Ruler",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Canyon",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Chovy",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Duro",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Gwen",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kiin",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303068",
+      "date": "2025-10-28",
+      "picks": [
+        {
+          "championId": "Sivir",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Viper",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Peanut",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yone",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeka",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Delight",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeus",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Ruler",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Skarner",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Canyon",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Chovy",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Duro",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kiin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_302140",
+      "date": "2025-10-28",
+      "picks": [
+        {
+          "championId": "Yunara",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nidalee",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Hwei",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Duro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Gen.G",
+          "opponent": "Hanwha Life Esports",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Smolder",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Viper",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nocturne",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Peanut",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeka",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Delight",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Camille",
+          "team": "Hanwha Life Esports",
+          "opponent": "Gen.G",
+          "player": "Zeus",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303118",
+      "date": "2025-10-29",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Doggo",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "JunJia",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "HongQ",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nami",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Kaiwing",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Driver",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303120",
+      "date": "2025-10-29",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Doggo",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "JunJia",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "HongQ",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Kaiwing",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Rest",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "deokdam",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Bdd",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Peter",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_302189",
+      "date": "2025-10-29",
+      "picks": [
+        {
+          "championId": "Ziggs",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Viego",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Zoe",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "KT Rolster",
+          "opponent": "CTBC Flying Oyster",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Doggo",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Skarner",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "JunJia",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Hwei",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "HongQ",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Kaiwing",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "CTBC Flying Oyster",
+          "opponent": "KT Rolster",
+          "player": "Rest",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_302227",
+      "date": "2025-10-30",
+      "picks": [
+        {
+          "championId": "Varus",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Akali",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Creme",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Hang",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "369",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Caps",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rell",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Labrov",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303163",
+      "date": "2025-10-30",
+      "picks": [
+        {
+          "championId": "Sivir",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yone",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Creme",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Hang",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "369",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Lucian",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "DrMundo",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Caps",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Labrov",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303164",
+      "date": "2025-10-30",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Hwei",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Creme",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Karma",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Hang",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aatrox",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "369",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Hans Sama",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ivern",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "SkewMond",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sylas",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Caps",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Thresh",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Labrov",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "BrokenBlade",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303171",
+      "date": "2025-10-30",
+      "picks": [
+        {
+          "championId": "Draven",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Hans Sama",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "SkewMond",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Syndra",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Caps",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "Labrov",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "G2 Esports",
+          "opponent": "Top Esports",
+          "player": "BrokenBlade",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Xayah",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "JackeyLove",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Naafiri",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Kanavi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Creme",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "Hang",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Gnar",
+          "team": "Top Esports",
+          "opponent": "G2 Esports",
+          "player": "369",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303213",
+      "date": "2025-10-31",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Hope",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Tarzan",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Shanks",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Kael",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Flandre",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_302251",
+      "date": "2025-10-31",
+      "picks": [
+        {
+          "championId": "Sivir",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Hope",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Tarzan",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Shanks",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Kael",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Flandre",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Draven",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Oner",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Anivia",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Faker",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Keria",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Doran",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303214",
+      "date": "2025-10-31",
+      "picks": [
+        {
+          "championId": "Ziggs",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Gumayusi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Oner",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sylas",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Faker",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Blitzcrank",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Keria",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Doran",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Jhin",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Hope",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Tarzan",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yone",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Shanks",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Bard",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Kael",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Flandre",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303216",
+      "date": "2025-10-31",
+      "picks": [
+        {
+          "championId": "Kaisa",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Gumayusi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nocturne",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Oner",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Faker",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Keria",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Doran",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Hope",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Skarner",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Tarzan",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leblanc",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Shanks",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Kael",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Flandre",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303219",
+      "date": "2025-10-31",
+      "picks": [
+        {
+          "championId": "Jinx",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Hope",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sejuani",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Tarzan",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Syndra",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Shanks",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Lulu",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Kael",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aatrox",
+          "team": "Anyone's Legend",
+          "opponent": "T1",
+          "player": "Flandre",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ashe",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "DrMundo",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Mel",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Seraphine",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "T1",
+          "opponent": "Anyone's Legend",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303255",
+      "date": "2025-11-01",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Duro",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "deokdam",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Yone",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Bdd",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Peter",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303257",
+      "date": "2025-11-01",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Duro",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "deokdam",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Bdd",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Peter",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303258",
+      "date": "2025-11-01",
+      "picks": [
+        {
+          "championId": "Ashe",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Azir",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Lulu",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Ruler",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Canyon",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Chovy",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Duro",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aatrox",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Kiin",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_302318",
+      "date": "2025-11-01",
+      "picks": [
+        {
+          "championId": "Lucian",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Ruler",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Skarner",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Canyon",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Anivia",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Chovy",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Duro",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yorick",
+          "team": "Gen.G",
+          "opponent": "KT Rolster",
+          "player": "Kiin",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Kalista",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "deokdam",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "DrMundo",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Bdd",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renata",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "Peter",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "KT Rolster",
+          "opponent": "Gen.G",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303337",
+      "date": "2025-11-02",
+      "picks": [
+        {
+          "championId": "Varus",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Gumayusi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Oner",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Orianna",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Faker",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Keria",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Doran",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "JackeyLove",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Kanavi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Akali",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Creme",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Karma",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Hang",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "369",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303341",
+      "date": "2025-11-02",
+      "picks": [
+        {
+          "championId": "Corki",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Creme",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nami",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Hang",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "369",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Kaisa",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Camille",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_303342",
+      "date": "2025-11-02",
+      "picks": [
+        {
+          "championId": "Draven",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "JackeyLove",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Qiyana",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Kanavi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Aurora",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Creme",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "Hang",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ornn",
+          "team": "Top Esports",
+          "opponent": "T1",
+          "player": "369",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ashe",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Mel",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renata",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "T1",
+          "opponent": "Top Esports",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_307101",
+      "date": "2025-11-09",
+      "picks": [
+        {
+          "championId": "Ashe",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MonkeyKing",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Ryze",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Braum",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Peter",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rumble",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Varus",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "XinZhao",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Taliyah",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Poppy",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Ambessa",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_307103",
+      "date": "2025-11-09",
+      "picks": [
+        {
+          "championId": "Ezreal",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Vi",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Mel",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Neeko",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Peter",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "RekSai",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Sivir",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "JarvanIV",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Oner",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sylas",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Faker",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Lulu",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Keria",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sion",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Doran",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_306141",
+      "date": "2025-11-09",
+      "picks": [
+        {
+          "championId": "Yunara",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Gumayusi",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Viego",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Oner",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Viktor",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Faker",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Rakan",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Keria",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Renekton",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Doran",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Corki",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "deokdam",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "DrMundo",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Syndra",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Bdd",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Alistar",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Peter",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "KSante",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_307104",
+      "date": "2025-11-09",
+      "picks": [
+        {
+          "championId": "Kalista",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Gumayusi",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Nocturne",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Oner",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Anivia",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Faker",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Renata",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Keria",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Gragas",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Doran",
+          "side": "Blue",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Caitlyn",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "deokdam",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Trundle",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Cuzz",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Cassiopeia",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Bdd",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "TahmKench",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Peter",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Mordekaiser",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "PerfecT",
+          "side": "Red",
+          "win": false,
+          "skin": null
+        }
+      ]
+    },
+    {
+      "id": "LOLTMNT01_307105",
+      "date": "2025-11-09",
+      "picks": [
+        {
+          "championId": "Ziggs",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "deokdam",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Sejuani",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Cuzz",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Smolder",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Bdd",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Nautilus",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "Peter",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "Yorick",
+          "team": "KT Rolster",
+          "opponent": "T1",
+          "player": "PerfecT",
+          "side": "Blue",
+          "win": false,
+          "skin": null
+        },
+        {
+          "championId": "MissFortune",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Gumayusi",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Pantheon",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Oner",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Galio",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Faker",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Leona",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Keria",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        },
+        {
+          "championId": "Camille",
+          "team": "T1",
+          "opponent": "KT Rolster",
+          "player": "Doran",
+          "side": "Red",
+          "win": true,
+          "skin": null
+        }
+      ]
+    }
+  ]
+}
