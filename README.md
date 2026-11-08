@@ -10,8 +10,10 @@
 | [스킨 입력표](data/worlds/2025-main-event/picks.csv) | 800픽의 날짜·팀·선수·챔피언·스킨·크로마·영상 링크 |
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
 | [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 자료에서 정확한 픽에 연결한 182건 |
+| [대회 전체 스킨 횟수 참고표](data/worlds/2025-main-event/observer-aggregate-reference.json) | 플레이인을 포함한 84경기의 공개 관찰 집계 22건 |
 
 [렉사이 15경기 검토 목록](docs/worlds-2025-reksai-review.md)은 공식 VOD와 대회 관찰 기록으로 좁힌 스킨 후보를 모아 두었습니다. 후보는 경기별 확정 기록이나 스킨 사용 횟수에 포함하지 않습니다.
+대회 전체 스킨 횟수는 입력한 메인 이벤트 픽을 교차 검증하는 상한으로만 사용하며, 어느 경기에서 썼는지를 증명하지 않습니다.
 
 ## 입력 방법
 
@@ -40,5 +42,7 @@ CSV를 직접 수정했다면 `node scripts/import-reviewed-picks.mjs`로 새 �
 ## English
 
 This public dataset tracks skins actually chosen in pro League of Legends games. It currently covers all 80 games and 800 champion picks of the Worlds 2025 Main Event, with an official English YouTube VOD link for each game. A blank `skin` means **unknown**, not the default skin. Chroma is tracked independently and remains unreviewed until there is evidence.
+
+The [observer aggregate reference](data/worlds/2025-main-event/observer-aggregate-reference.json) records 22 published skin-use counts for all 84 Worlds games, including Play-In. These totals help cross-check manual entries, but cannot identify an individual Main Event pick. `node scripts/validate.mjs` checks that confirmed Main Event uses do not exceed these totals.
 
 To add a reviewed skin, fill `skin` and an HTTPS `source_url` in `picks.csv`, then run `node scripts/import-reviewed-picks.mjs` and `node scripts/validate.mjs`. The importer creates a `manual_review` evidence record for the exact game pick and refuses to overwrite an existing claim.

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+  "scope": "Worlds 2025, 84 games including four Play-In games",
+  "purpose": "Published tournament-wide counts for cross-checking manual reviews; these are not game-level skin evidence.",
+  "records": [
+    { "championId": "KSante", "skin": "Empyrean K'Sante", "uses": 22 },
+    { "championId": "Rumble", "skin": "Super Galaxy Rumble", "uses": 21 },
+    { "championId": "Ambessa", "skin": "Classic Ambessa", "uses": 19 },
+    { "championId": "Kaisa", "skin": "iG Kai'Sa", "uses": 17 },
+    { "championId": "Orianna", "skin": "Classic Orianna", "uses": 15 },
+    { "championId": "Ezreal", "skin": "Striker Ezreal", "uses": 15 },
+    { "championId": "Azir", "skin": "Classic Azir", "uses": 14 },
+    { "championId": "Ryze", "skin": "Pirate Ryze", "uses": 14 },
+    { "championId": "Yunara", "skin": "Spirit Blossom Springs Yunara", "uses": 12 },
+    { "championId": "Rakan", "skin": "Cosmic Dawn Rakan", "uses": 12 },
+    { "championId": "JarvanIV", "skin": "Fnatic Jarvan IV", "uses": 11 },
+    { "championId": "Corki", "skin": "Arcade Corki", "uses": 11 },
+    { "championId": "Xayah", "skin": "Cosmic Dusk Xayah", "uses": 10 },
+    { "championId": "Lucian", "skin": "High Noon Lucian", "uses": 8 },
+    { "championId": "Rell", "skin": "Battle Queen Rell", "uses": 7 },
+    { "championId": "Bard", "skin": "T1 Bard", "uses": 9 },
+    { "championId": "Nautilus", "skin": "Subterranean Nautilus", "uses": 8 },
+    { "championId": "Ornn", "skin": "Thunder Lord Ornn", "uses": 8 },
+    { "championId": "Mordekaiser", "skin": "Sahn-Uzal Mordekaiser", "uses": 6 },
+    { "championId": "Sivir", "skin": "Neo PAX Sivir", "uses": 10 },
+    { "championId": "Aatrox", "skin": "Prestige Blood Moon Aatrox", "uses": 5 },
+    { "championId": "DrMundo", "skin": "Corporate Mundo", "uses": 5 }
+  ]
+}

@@ -13,7 +13,7 @@ const script = 'scripts/import-reviewed-picks.mjs';
 function fixture() {
   const dir = mkdtempSync(join(tmpdir(), 'worlds-reviewed-picks-'));
   for (const file of ['picks.csv', 'skin-evidence.json', 'games.csv',
-    'roster.json', 'vods.json']) {
+    'roster.json', 'vods.json', 'observer-aggregate-reference.json']) {
     copyFileSync(join(source, file), join(dir, file));
   }
   const rows = parseCsv(readFileSync(join(dir, 'picks.csv'), 'utf8'));
@@ -73,6 +73,23 @@ test('validation rejects a CSV skin omitted from the evidence overlay', () => {
     const result = validate(dir);
     assert.notEqual(result.status, 0);
     assert.match(result.stderr, /Missing skin evidence/);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('validation rejects assignments above a published tournament-wide count', () => {
+  const { dir } = fixture();
+  try {
+    const file = join(dir, 'observer-aggregate-reference.json');
+    const aggregate = JSON.parse(readFileSync(file, 'utf8'));
+    const rumble = aggregate.records.find((record) =>
+      record.championId === 'Rumble' && record.skin === 'Super Galaxy Rumble');
+    rumble.uses = 19;
+    writeFileSync(file, `${JSON.stringify(aggregate, null, 2)}\n`);
+    const result = validate(dir);
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /assignments exceed published 84-game total/);
   } finally {
     rmSync(dir, { recursive: true, force: true });
   }

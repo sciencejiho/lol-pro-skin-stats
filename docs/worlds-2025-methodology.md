@@ -17,6 +17,12 @@ likewise list champions, items, and runes rather than selected skins.
 The [firsthand Worlds tracker](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)
 observed the whole 84-game event, including four Play-In games. Its author
 describes watching games, recognizing skins, and recording them in Excel.
+The [observer aggregate reference](../data/worlds/2025-main-event/observer-aggregate-reference.json)
+transcribes 22 published skin-use counts from that post. These include Play-In
+and are cross-check ceilings for our Main Event assignments, not per-game
+evidence. The validator rejects any Main Event skin count above its published
+84-game total. A count below that total does not identify which unreviewed
+game used the skin.
 The importer cross-checks every whole-event count against ChainCC before
 assigning a skin to a Main Event game:
 

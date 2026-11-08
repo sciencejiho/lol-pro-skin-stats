@@ -10,6 +10,7 @@ const dir = args.length === 2 ? args[1] : 'data/worlds/2025-main-event';
 const roster = JSON.parse(readFileSync(`${dir}/roster.json`, 'utf8'));
 const evidence = JSON.parse(readFileSync(`${dir}/skin-evidence.json`, 'utf8'));
 const vods = JSON.parse(readFileSync(`${dir}/vods.json`, 'utf8'));
+const aggregate = JSON.parse(readFileSync(`${dir}/observer-aggregate-reference.json`, 'utf8'));
 
 function readRows(file) {
   const [header, ...cells] = parseCsv(readFileSync(`${dir}/${file}`, 'utf8'));
@@ -89,5 +90,20 @@ for (const [key, pick] of picksByKey) {
     `Skin and source_url must both be set: ${key}`);
   assert.equal(Boolean(evidenceByKey.has(key)), Boolean(pick.skin),
     `Missing skin evidence or stale CSV: ${key}`);
+}
+assert.match(aggregate.sourceUrl, /^https:\/\//);
+assert.ok(aggregate.records.length > 0);
+const aggregateKeys = new Set();
+for (const record of aggregate.records) {
+  const key = `${record.championId}:${record.skin}`;
+  assert.ok(!aggregateKeys.has(key), `Duplicate aggregate: ${key}`);
+  aggregateKeys.add(key);
+  assert.ok(Number.isInteger(record.uses) && record.uses > 0, `Invalid aggregate: ${key}`);
+  assert.ok(roster.games.some((game) => game.picks.some((pick) =>
+    pick.championId === record.championId)), `Unknown aggregate champion: ${key}`);
+  const confirmedMainEventUses = evidence.records.filter((item) =>
+    item.championId === record.championId && item.skin === record.skin).length;
+  assert.ok(confirmedMainEventUses <= record.uses,
+    `Main Event assignments exceed published 84-game total: ${key}`);
 }
 console.log(`Validated 80 games, 800 picks, ${evidence.records.length} sourced skins, and 80 YouTube links`);
