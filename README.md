@@ -11,6 +11,8 @@
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
 | [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 자료에서 정확한 픽에 연결한 182건 |
 
+[렉사이 15경기 검토 목록](docs/worlds-2025-reksai-review.md)은 공식 VOD와 대회 관찰 기록으로 좁힌 스킨 후보를 모아 두었습니다. 후보는 경기별 확정 기록이나 스킨 사용 횟수에 포함하지 않습니다.
+
 ## 입력 방법
 
 1. `games.csv`에서 경기를 찾고 `youtube_url`을 여세요. `picks.csv`의 각 픽에도 같은 링크가 있습니다. 픽/밴 이후의 화면으로 빠르게 이동하려면 같은 `game_id`의 `gameplay-hints.csv`에서 `chapter_hint_url`을 이용하세요. 63경기는 **미검증 자동 챕터 힌트**이고 2경기 링크는 실제 경기 화면으로 검증했습니다. 빈칸인 15경기는 원래 YouTube 링크에서 직접 찾으세요.
