@@ -18,7 +18,8 @@ The [firsthand Worlds tracker](https://www.reddit.com/r/leagueoflegends/comments
 observed the whole 84-game event, including four Play-In games. Its author
 describes watching games, recognizing skins, and recording them in Excel.
 The [observer aggregate reference](../data/worlds/2025-main-event/observer-aggregate-reference.json)
-transcribes 22 published skin-use counts from that post. These include Play-In
+transcribes 81 published skin-use counts from that post, including complete
+skin distributions for 11 champions. These include Play-In
 and are cross-check ceilings for our Main Event assignments, not per-game
 evidence. The validator rejects any Main Event skin count above its published
 84-game total. A count below that total does not identify which unreviewed

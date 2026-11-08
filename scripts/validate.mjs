@@ -106,4 +106,16 @@ for (const record of aggregate.records) {
   assert.ok(confirmedMainEventUses <= record.uses,
     `Main Event assignments exceed published 84-game total: ${key}`);
 }
+for (const [championId, publishedAppearances] of
+  Object.entries(aggregate.completeChampionDistributions)) {
+  const publishedSkinUses = aggregate.records
+    .filter((record) => record.championId === championId)
+    .reduce((sum, record) => sum + record.uses, 0);
+  assert.equal(publishedSkinUses, publishedAppearances,
+    `Incomplete published skin distribution: ${championId}`);
+  const mainEventAppearances = roster.games.flatMap((game) => game.picks)
+    .filter((pick) => pick.championId === championId).length;
+  assert.ok(mainEventAppearances <= publishedAppearances,
+    `Main Event appearances exceed published 84-game total: ${championId}`);
+}
 console.log(`Validated 80 games, 800 picks, ${evidence.records.length} sourced skins, and 80 YouTube links`);

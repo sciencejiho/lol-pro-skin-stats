@@ -95,6 +95,22 @@ test('validation rejects assignments above a published tournament-wide count', (
   }
 });
 
+test('validation rejects an incomplete published champion distribution', () => {
+  const { dir } = fixture();
+  try {
+    const file = join(dir, 'observer-aggregate-reference.json');
+    const aggregate = JSON.parse(readFileSync(file, 'utf8'));
+    aggregate.records = aggregate.records.filter((record) =>
+      !(record.championId === 'Ziggs' && record.skin === 'BZZZiggs'));
+    writeFileSync(file, `${JSON.stringify(aggregate, null, 2)}\n`);
+    const result = validate(dir);
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /Incomplete published skin distribution: Ziggs/);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
 test('rejects an unsourced CSV skin without modifying evidence', () => {
   const { dir, rows, row, header } = fixture();
   try {
