@@ -5,6 +5,15 @@ Unit of analysis: one champion pick in one Main Event game, identified by
 picks. Skin selections are a separate evidence overlay; absent evidence means
 unknown, never zero uses or a default skin.
 
+The public LoL Esports feed was sampled for Main Event game
+`113475798006599035` through its `getGames`, live `window`, and live `details`
+responses. The game metadata includes participant champion IDs, while neither
+live-statistics response contains a skin or chroma key. This is a check of one
+game and these endpoints, not proof that Riot has no internal skin records; it
+does mean that the public responses used for this dataset cannot supply the
+missing skin choices. The [feed's documented response fields](https://vickz84259.github.io/lolesports-api-docs/)
+likewise list champions, items, and runes rather than selected skins.
+
 The [firsthand Worlds tracker](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)
 observed the whole 84-game event, including four Play-In games. Its author
 describes watching games, recognizing skins, and recording them in Excel.
