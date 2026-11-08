@@ -146,6 +146,15 @@ Its public matches query returned no 2025 records when checked on 2026-11-08,
 so it cannot fill this tournament. Revisit these sources if their coverage or
 access changes.
 
+Two other public match archives were checked on 2026-11-08. The
+[League2025WorldData project](https://github.com/KayXi2014/League2025WorldData)
+scrapes the Worlds 2025 Leaguepedia match history, but its published match
+table has picks, teams, dates, and results rather than skins. The
+[GPTilt esports matches dataset](https://huggingface.co/datasets/gptilt/lol-esports-matches)
+includes a Leaguepedia game ID, Riot game ID, picks, and a VOD field, but its
+published schema has no skin or chroma field. Neither can supply a skin value
+for the 622 still-unidentified Main Event picks.
+
 The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
 regenerates the evidence overlay from the ChainCC file and the reviewed source
 claims. Review its JSON diff before syncing this repository. Do not extend
