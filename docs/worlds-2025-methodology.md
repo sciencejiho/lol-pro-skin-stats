@@ -116,13 +116,21 @@ one manually reviewed game pick. The broadcast does not establish a chroma.
 The tracker reports six Sahn-Uzal uses in eight Mordekaiser picks, but that
 aggregate is not used to fill the other five unidentified picks.
 
-Together, these sources yield **180/800 sourced picks (22.5%)**. The first
+Together, these sources yield **181/800 sourced picks (22.625%)**. The first
 160 are deductions from a firsthand observer's published data, not independent
 video checks. Five finals entries are explicitly named in the esports.gg report,
 nine are cross-checked against the observer's T1 wardrobe, one comes from the
 translated player statement, three from timed VOD commentary, and one from
-the year-end report. One additional pick was visually reviewed in the official VOD.
+the year-end report. Two additional picks were visually reviewed in official VODs.
 All other skin choices remain unknown.
+
+In [finals game one at about 11:00](https://www.youtube.com/watch?v=sfVFGFfec64&t=660s),
+Keria's Poppy appears in the white cafe outfit with orange hair. The
+[T1 finals bundle report](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)
+lists Cafe Cuties Poppy, although it warns that some bundle skins differ from
+actual game choices. The visible model plus that report supports the specific
+skin. The broadcast resolution does not establish a chroma, so its status
+remains `unreviewed`.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
 is a candidate visual source for Bin's Rek'Sai pick on October 15. A sampled
@@ -132,7 +140,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 180 entries above; the other 620 cells are blank.
+`skin` column starts with the 181 entries above; the other 619 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
@@ -171,11 +179,14 @@ YouTube-provided chapter titles with `yt-dlp` on 2026-11-08 and selected the
 first chapter at or after 250 seconds whose title suggests early gameplay,
 excluding chapters labelled draft, analysis, or recap. Eight videos returned
 no chapters; seven others had no suitable title. The `review_status` field
-explicitly marks these links as **unverified navigation hints**. YouTube
-chapters are sometimes inaccurate: one VOD labels its 47-second mark as
-"Game start" despite a preceding draft chapter. These links therefore help a
-reviewer skip towards gameplay but are not evidence for a skin, chroma, or the
-precise match start time. The original VOD URL remains available in every row.
+marks 64 of these as **unverified navigation hints**. YouTube chapters are
+sometimes inaccurate: one VOD labels its 47-second mark as "Game start"
+despite a preceding draft chapter. In finals game one, the automated 6:27
+"Early game" chapter still shows the stage; we replaced its hint with
+[verified in-game footage at 9:20](https://www.youtube.com/watch?v=sfVFGFfec64&t=560s).
+The other chapter hints can help a reviewer navigate but are not evidence for
+a skin, chroma, or the precise match start time. The original VOD URL remains
+available in every row.
 
 One targeted lead remains unresolved: a [contemporaneous T1–CFO discussion](https://www.reddit.com/r/SKTT1/comments/1o81g05/t1_vs_cfo_worlds_swiss_stage/)
 suggests that Oner used his own Vi skin in the October 16 game
@@ -255,7 +266,7 @@ table has picks, teams, dates, and results rather than skins. The
 [GPTilt esports matches dataset](https://huggingface.co/datasets/gptilt/lol-esports-matches)
 includes a Leaguepedia game ID, Riot game ID, picks, and a VOD field, but its
 published schema has no skin or chroma field. Neither can supply a skin value
-for the 620 still-unidentified Main Event picks.
+for the 619 still-unidentified Main Event picks.
 
 The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
 regenerates the evidence overlay from the ChainCC file and the reviewed source

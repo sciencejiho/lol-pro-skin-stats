@@ -1454,6 +1454,15 @@
       "skin": "Sahn-Uzal Mordekaiser",
       "sourceUrl": "https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=720s",
       "method": "manual_review"
+    },
+    {
+      "gameId": "LOLTMNT01_307101",
+      "championId": "Poppy",
+      "player": "Keria",
+      "skin": "Cafe Cuties Poppy",
+      "sourceUrl": "https://www.youtube.com/watch?v=sfVFGFfec64&t=660s",
+      "method": "vod_visual_plus_bundle",
+      "supportingSourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/"
     }
   ]
 }
