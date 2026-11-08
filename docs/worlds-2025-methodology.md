@@ -143,13 +143,22 @@ date her next skin to December 2025. ChainCC has three Mel picks across the
 Bdd's final game-three pick as an inference; it was not independently seen
 in the game VOD. The record keeps both source links.
 
-Together, these sources yield **182/800 sourced picks (22.75%)**. The first
+The observer's bot-lane breakdown reports only five base-skin picks in all
+84 games: four Yunara and one Corki. ChainCC labels Viper's Smolder in
+`LOLTMNT01_302140` as `bot`, so that pick was not base. Riot's
+[15.20.1 Smolder catalog](https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion/Smolder.json)
+contains only `default` and Heavenscale Smolder. The two sources therefore
+identify **Heavenscale Smolder** for this pick. The VOD was not visually
+checked for this inference, and its chroma remains unreviewed.
+
+Together, these sources yield **183/800 sourced picks (22.875%)**. The first
 160 are deductions from a firsthand observer's published data, not independent
 video checks. Five finals entries are explicitly named in the esports.gg report,
 nine are cross-checked against the observer's T1 wardrobe, one comes from the
 translated player statement, three from timed VOD commentary, and one from
 the year-end report. Two additional picks were visually reviewed in official VODs,
-and one Mel pick was inferred from the observer's statement and cosmetic timeline.
+one Mel pick was inferred from the observer's statement and cosmetic timeline,
+and one Smolder pick from the bot-lane base count and patch skin catalog.
 All other skin choices remain unknown.
 
 In [finals game one at about 11:00](https://www.youtube.com/watch?v=sfVFGFfec64&t=660s),
@@ -168,7 +177,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 182 entries above; the other 618 cells are blank.
+`skin` column starts with the 183 entries above; the other 617 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
@@ -303,7 +312,7 @@ table has picks, teams, dates, and results rather than skins. The
 [GPTilt esports matches dataset](https://huggingface.co/datasets/gptilt/lol-esports-matches)
 includes a Leaguepedia game ID, Riot game ID, picks, and a VOD field, but its
 published schema has no skin or chroma field. Neither can supply a skin value
-for the 618 still-unidentified Main Event picks.
+for the 617 still-unidentified Main Event picks.
 
 The [source-site importer](https://github.com/sciencejiho/web-main/blob/main/scripts/import-worlds-2025-skin-evidence.mjs)
 regenerates the evidence overlay from the ChainCC file and the reviewed source

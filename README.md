@@ -9,7 +9,7 @@
 | [VOD JSON](data/worlds/2025-main-event/vods.json) | 웹사이트에서 쓰는 경기 ID·YouTube 링크 목록 |
 | [스킨 입력표](data/worlds/2025-main-event/picks.csv) | 800픽의 날짜·팀·선수·챔피언·스킨·크로마·영상 링크 |
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
-| [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 자료에서 정확한 픽에 연결한 182건 |
+| [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 자료에서 정확한 픽에 연결한 183건 |
 | [대회 전체 스킨 횟수 참고표](data/worlds/2025-main-event/observer-aggregate-reference.json) | 플레이인을 포함한 84경기의 공개 관찰 집계 81건, 11개 챔피언의 전체 스킨 분포 |
 
 [렉사이 15경기 검토 목록](docs/worlds-2025-reksai-review.md)은 공식 VOD와 대회 관찰 기록으로 좁힌 스킨 후보를 모아 두었습니다. 후보는 경기별 확정 기록이나 스킨 사용 횟수에 포함하지 않습니다.
@@ -24,11 +24,13 @@
 
 CSV를 직접 수정했다면 `node scripts/import-reviewed-picks.mjs`로 새 스킨·출처를 `skin-evidence.json`에 옮기고 `node scripts/validate.mjs`로 800픽·80개 VOD와 근거의 일치를 확인하세요. 기존 근거와 다른 값은 자동으로 덮어쓰지 않고 오류로 표시합니다. 이 스크립트는 크로마 칸을 변경하지 않습니다. 사이트 반영 시 검토된 `picks.csv`와 `skin-evidence.json`을 [웹사이트 저장소](https://github.com/sciencejiho/web-main)의 대응 파일에 복사해야 합니다.
 
-현재 182개의 `skin` 값 중 160개는 [직접 관찰한 월즈 2025 기록](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)의 대회 전체 집계·특정 선수 언급을 [ChainCC 경기 자료](https://chaincc.lol/free/data)와 맞춰 경기 단위로 좁힌 것입니다. 5개는 [결승전 실제 사용 스킨 보도](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)에 명시됐고, 9개는 그 보도와 관찰자의 T1 스킨 목록이 일치하며, 1개는 [선수의 대회 복기 방송 기록](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/)에서 확인했습니다. 3개는 공식 경기 VOD의 시점별 해설에서 확인했고, 스킨 외형으로 이름을 특정한 2개에는 보조 출처를 남겼습니다. 1개는 [esports.gg의 2025년 결산](https://esports.gg/news/league-of-legends/best-league-of-legends-skins-in-2025/)이 결승 PerfecT의 스킨을 직접 명시합니다. 1개는 [공식 경기 VOD에서 Myrwn의 모르데카이저 외형](https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=720s)을 확인해 스킨 모델과 대조했습니다. 영상으로 182건을 각각 재확인한 것은 아닙니다. 나머지 618픽은 미확인입니다. 크로마는 아직 확인한 항목이 없습니다. 추론 범위는 [조사 기록](docs/worlds-2025-methodology.md)에 적었습니다.
+현재 183개의 `skin` 값 중 160개는 [직접 관찰한 월즈 2025 기록](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)의 대회 전체 집계·특정 선수 언급을 [ChainCC 경기 자료](https://chaincc.lol/free/data)와 맞춰 경기 단위로 좁힌 것입니다. 5개는 [결승전 실제 사용 스킨 보도](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)에 명시됐고, 9개는 그 보도와 관찰자의 T1 스킨 목록이 일치하며, 1개는 [선수의 대회 복기 방송 기록](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/)에서 확인했습니다. 3개는 공식 경기 VOD의 시점별 해설에서 확인했고, 스킨 외형으로 이름을 특정한 2개에는 보조 출처를 남겼습니다. 1개는 [esports.gg의 2025년 결산](https://esports.gg/news/league-of-legends/best-league-of-legends-skins-in-2025/)이 결승 PerfecT의 스킨을 직접 명시합니다. 1개는 [공식 경기 VOD에서 Myrwn의 모르데카이저 외형](https://www.youtube.com/watch?v=QhKKq1S9TmQ&t=720s)을 확인해 스킨 모델과 대조했습니다. 영상으로 183건을 각각 재확인한 것은 아닙니다. 나머지 617픽은 미확인입니다. 크로마는 아직 확인한 항목이 없습니다. 추론 범위는 [조사 기록](docs/worlds-2025-methodology.md)에 적었습니다.
 
 추가 1개는 [결승 1세트 11:00경 공식 VOD](https://www.youtube.com/watch?v=sfVFGFfec64&t=660s)의 Keria Poppy 외형을 [결승 스킨 묶음 보도](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/)와 함께 확인한 Cafe Cuties Poppy입니다. 크로마는 영상만으로 확정하지 않았습니다.
 
 나머지 1개는 [월즈 2025 관찰 기록](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/)에서 Mel이 출시 스킨을 사용하지 않았다는 설명과 [Mel의 스킨 출시 목록](https://wiki.leagueoflegends.com/en-us/Mel/Cosmetics)을 교차 확인해, 결승 3세트 Bdd의 Mel을 Classic Mel로 추론했습니다. 이 픽을 영상에서 직접 판독한 것은 아닙니다.
+
+추가 1개는 같은 관찰 기록의 **봇 라인 기본 스킨은 유나라·코르키뿐**이라는 집계, [ChainCC](https://chaincc.lol/free/data)의 Viper 스몰더 봇 라인 기록, [Riot의 당시 스몰더 스킨 목록](https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion/Smolder.json)을 결합해 Heavenscale Smolder로 추론했습니다. 영상으로 외형이나 크로마를 확인한 것은 아닙니다.
 
 ## 데이터 출처와 갱신
 
@@ -37,7 +39,7 @@ CSV를 직접 수정했다면 `node scripts/import-reviewed-picks.mjs`로 새 �
 - 스킨: [월즈 2025 직접 관찰 기록](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/), [결승전 실제 사용 스킨 보도](https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/), [선수의 대회 복기 방송 기록](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/), 공식 경기 VOD의 시점 링크를 픽별 출처로 표시합니다. 확인되지 않은 스킨은 임의로 채우지 않습니다.
 - 크로마 식별: [Riot Data Dragon 문서](https://developer.riotgames.com/docs/lol#data-dragon)는 크로마 항목을 `parentSkin`으로 원래 스킨과 연결합니다. 향후 이름을 Riot 스킨·크로마 ID에 연결할 때 이 관계와 **경기 당시 패치**를 함께 확인해야 합니다. 현재 CSV의 크로마는 모두 미검토입니다.
 
-`node scripts/validate.mjs`는 80경기·800픽의 ID·팀·선수·VOD 연결과 현재 근거 182건을 검사합니다. VOD 조회에는 Node.js 20 이상이 필요합니다. 이 저장소는 Riot Games의 공식 프로젝트가 아닙니다.
+`node scripts/validate.mjs`는 80경기·800픽의 ID·팀·선수·VOD 연결과 현재 근거 183건을 검사합니다. VOD 조회에는 Node.js 20 이상이 필요합니다. 이 저장소는 Riot Games의 공식 프로젝트가 아닙니다.
 
 ## English
 

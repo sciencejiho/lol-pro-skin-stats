@@ -863,6 +863,15 @@
       "method": "single_player_champion_appearance"
     },
     {
+      "gameId": "LOLTMNT01_302140",
+      "championId": "Smolder",
+      "player": "Viper",
+      "skin": "Heavenscale Smolder",
+      "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
+      "method": "role_skin_catalog_inference",
+      "supportingSourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion/Smolder.json"
+    },
+    {
       "gameId": "LOLTMNT01_303118",
       "championId": "Ezreal",
       "player": "deokdam",

@@ -78,7 +78,7 @@ for (const record of evidence.records) {
   assert.match(record.sourceUrl, /^https:\/\//);
   if (['all_champion_appearances_crosschecked',
     'finals_bundle_tracker_agreement', 'vod_commentary_crosschecked',
-    'vod_visual_plus_bundle']
+    'vod_visual_plus_bundle', 'role_skin_catalog_inference']
     .includes(record.method)) {
     assert.match(record.supportingSourceUrl, /^https:\/\//);
   } else {
