@@ -174,6 +174,15 @@ says broader community access to the separate LoL Esports Data Portal is still
 being rolled out. No skin value is inferred from an absent field or from a
 promotional skin bundle.
 
+[GRID's file-download documentation](https://docs.grid.gg/public/documentation/api-documentation/in-game-data/grid-file-download-api)
+lists Riot Game Agnostic Match History files for supported series. It requires
+a GRID API key; an unauthenticated request to the documented list endpoint
+returned HTTP 401 on 2026-11-08. The public documentation does not establish
+that these files contain a selected skin or chroma field, nor that the 2025
+Worlds files can be obtained under non-commercial access. Do not count this
+as a verified source of game-level skin choices without inspecting an
+authorized sample and confirming its field and coverage.
+
 The current proskin.gg site describes archiving matches from 2026 onward.
 Its public matches query returned no 2025 records when checked on 2026-11-08,
 so it cannot fill this tournament. Revisit these sources if their coverage or
