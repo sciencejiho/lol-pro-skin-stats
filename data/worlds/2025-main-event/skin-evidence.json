@@ -1182,6 +1182,14 @@
     },
     {
       "gameId": "LOLTMNT01_307101",
+      "championId": "XinZhao",
+      "player": "Oner",
+      "skin": "Marauder Xin Zhao",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
+    },
+    {
+      "gameId": "LOLTMNT01_307101",
       "championId": "Taliyah",
       "player": "Faker",
       "skin": "Classic Taliyah",
@@ -1214,11 +1222,35 @@
     },
     {
       "gameId": "LOLTMNT01_307103",
+      "championId": "JarvanIV",
+      "player": "Oner",
+      "skin": "Fnatic Jarvan IV",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
       "championId": "Sylas",
       "player": "Faker",
       "skin": "Classic Sylas",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
+      "championId": "Lulu",
+      "player": "Keria",
+      "skin": "Winter Wonder Lulu",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
+    },
+    {
+      "gameId": "LOLTMNT01_307103",
+      "championId": "Sion",
+      "player": "Doran",
+      "skin": "Lumberjack Sion",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
     },
     {
       "gameId": "LOLTMNT01_306141",
@@ -1235,6 +1267,14 @@
       "skin": "Classic Viktor",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_306141",
+      "championId": "Rakan",
+      "player": "Keria",
+      "skin": "Cosmic Dawn Rakan",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
     },
     {
       "gameId": "LOLTMNT01_306141",
@@ -1259,6 +1299,14 @@
       "skin": "Marauder Kalista",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "single_player_champion_appearance"
+    },
+    {
+      "gameId": "LOLTMNT01_307104",
+      "championId": "Nocturne",
+      "player": "Oner",
+      "skin": "Eternum Nocturne",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
     },
     {
       "gameId": "LOLTMNT01_307104",
@@ -1294,11 +1342,35 @@
     },
     {
       "gameId": "LOLTMNT01_307105",
+      "championId": "Pantheon",
+      "player": "Oner",
+      "skin": "Dragonslayer Pantheon",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
+    },
+    {
+      "gameId": "LOLTMNT01_307105",
       "championId": "Galio",
       "player": "Faker",
       "skin": "Classic Galio",
       "sourceUrl": "https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/",
       "method": "all_player_appearances"
+    },
+    {
+      "gameId": "LOLTMNT01_307105",
+      "championId": "Leona",
+      "player": "Keria",
+      "skin": "PROJECT: Leona",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
+    },
+    {
+      "gameId": "LOLTMNT01_307105",
+      "championId": "Camille",
+      "player": "Doran",
+      "skin": "Coven Camille",
+      "sourceUrl": "https://esports.gg/news/league-of-legends/worlds-2025-skin-bundles/",
+      "method": "finals_bundle_tracker_agreement"
     }
   ]
 }

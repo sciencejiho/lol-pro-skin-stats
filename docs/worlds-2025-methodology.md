@@ -36,16 +36,27 @@ bundles, so bundle contents alone are not treated as evidence. The five
 player/champion pairs each occur once in the grand final and are joined to
 their exact ChainCC game IDs.
 
+Nine further grand-final picks have the same skin in both the report's role
+bundle and the [independent observer's T1 wardrobe](https://www.reddit.com/r/leagueoflegends/comments/1ox1hn9/fun_facts_about_skins_at_worlds_2025/):
+Oner's Marauder Xin Zhao, Fnatic Jarvan IV, Eternum Nocturne, and Dragonslayer
+Pantheon; Keria's Winter Wonder Lulu, Cosmic Dawn Rakan, and PROJECT: Leona;
+and Doran's Lumberjack Sion and Coven Camille. The bundle alone is not proof
+because the report notes substitutions; agreement with the observer supplies
+the second source. The observer writes "FNC Jarvan IV"; the canonical client
+name is "Fnatic Jarvan IV". Oner's Viego and Keria's Poppy remain unknown
+because their skins are not identified in that wardrobe list.
+
 Gumayusi's [post-tournament stream recap](https://www.reddit.com/r/SKTT1/comments/1p5xlhn/gumayusis_review_and_insight_of_worlds_2025_games/)
 also names the skin he used as Miss Fortune in finals game five. The recap
 uses its former name, Mafia Miss Fortune. [Riot's patch 10.13 notes](https://www.leagueoflegends.com/en-au/news/game-updates/patch-10-13-notes/)
 confirm that its current name is Crime City Miss Fortune. This adds one
 game-specific player statement.
 
-Together, these sources yield **162/800 sourced picks (20.3%)**. The first
+Together, these sources yield **171/800 sourced picks (21.4%)**. The first
 156 are deductions from a firsthand observer's published data, not independent
-video checks. Five finals entries are attributed to the esports.gg report and
-one to the translated player statement.
+video checks. Five finals entries are explicitly named in the esports.gg
+report, nine are cross-checked against the observer's T1 wardrobe, and one
+comes from the translated player statement.
 All other skin choices remain unknown.
 
 The [official BLG–100 Thieves game 1 VOD](https://www.youtube.com/watch?v=Row83yX7Ae0)
@@ -56,7 +67,7 @@ at the game level. Patching skins by sampling individual video frames was not
 continued because it does not scale reliably across 800 picks.
 
 The downloadable `worlds-2025-skin-entry.csv` gives one row per pick. Its
-`skin` column starts with the 162 entries above; the other 638 cells are blank.
+`skin` column starts with the 171 entries above; the other 629 cells are blank.
 The date, series game number, sides, teams, player, champion, official YouTube
 VOD and source URL columns help manual entry and later review. The VODs were
 matched using LoL Esports event date, teams, and game number; all 80 have an
