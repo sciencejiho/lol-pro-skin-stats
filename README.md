@@ -7,6 +7,7 @@
 | [경기별 YouTube 링크](data/worlds/2025-main-event/games.csv) | 80경기의 공식 LoL Esports 영어 VOD와 경기 ID |
 | [실제 경기 구간 탐색용 링크](data/worlds/2025-main-event/gameplay-hints.csv) | 63경기의 미검증 YouTube 자동 챕터 링크와 2경기의 검증된 경기 화면 링크 |
 | [VOD JSON](data/worlds/2025-main-event/vods.json) | 웹사이트에서 쓰는 경기 ID·YouTube 링크 목록 |
+| [Excel 스킨 입력표](data/worlds/2025-main-event/worlds-2025-skin-entry.xlsx) | 800픽 입력 시 챔피언별 스킨 드롭다운과 크로마 상태 드롭다운을 제공하는 통합문서 |
 | [스킨 입력표](data/worlds/2025-main-event/picks.csv) | 800픽의 날짜·팀·선수·챔피언·스킨·크로마·영상 링크 |
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
 | [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 자료에서 정확한 픽에 연결한 183건 |
@@ -16,6 +17,10 @@
 대회 전체 스킨 횟수는 입력한 메인 이벤트 픽을 교차 검증하는 상한으로만 사용하며, 어느 경기에서 썼는지를 증명하지 않습니다.
 
 ## 입력 방법
+
+Excel에서 작업한다면 `worlds-2025-skin-entry.xlsx`를 열어 **Picks** 시트의 노란색 `skin`, `source_url`, `chroma_status`, `chroma`, `chroma_source_url` 칸을 수정하세요. `skin` 드롭다운은 해당 행의 `champion_id`에 맞는 스킨만 보여줍니다. **Skin lookup** 시트에는 2025 월즈 당시 [Riot Data Dragon 15.20.1](https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion.json)에 등록된, 이번 80경기에 등장한 95개 챔피언의 1,103개 기본·개별 스킨과 ID·출처가 있습니다. `Classic`은 기본 스킨입니다. `youtube_url`과 기존 `source_url`은 Excel에서 클릭할 수 있습니다. `source_url`은 새 스킨을 선택할 때도 별도로 입력해야 합니다.
+
+입력을 마쳤다면 **Picks** 시트를 활성화한 상태에서 Excel의 **다른 이름으로 저장 → CSV UTF-8**을 선택하고 `data/worlds/2025-main-event/picks.csv`를 교체하세요. Excel이 현재 시트만 저장한다는 메시지를 표시하면 그대로 진행하면 됩니다. 이어서 `node scripts/import-reviewed-picks.mjs`와 `node scripts/validate.mjs`를 실행하세요. `Skin lookup` 시트는 CSV에 넣지 않습니다. 크로마의 구체적인 색상명은 아직 목록화하지 않았으므로 `chroma`에는 확인한 이름을 직접 입력합니다.
 
 1. `games.csv`에서 경기를 찾고 `youtube_url`을 여세요. `picks.csv`의 각 픽에도 같은 링크가 있습니다. 픽/밴 이후의 화면으로 빠르게 이동하려면 같은 `game_id`의 `gameplay-hints.csv`에서 `chapter_hint_url`을 이용하세요. 63경기는 **미검증 자동 챕터 힌트**이고 2경기 링크는 실제 경기 화면으로 검증했습니다. 빈칸인 15경기는 원래 YouTube 링크에서 직접 찾으세요.
 2. `picks.csv`에서 해당 `game_id`로 필터링해 선수·챔피언을 확인하세요. `skin`이 빈칸이면 아직 모르는 것입니다. **기본 스킨이라는 뜻이 아닙니다.** 스킨을 확인한 경우 이름을 입력하고 `source_url`에 확인한 영상의 시점 링크나 공개 자료 링크를 넣으세요. 새 스킨 값에는 출처가 필요합니다.
