@@ -7,7 +7,7 @@
 | [경기별 YouTube 링크](data/worlds/2025-main-event/games.csv) | 80경기의 공식 LoL Esports 영어 VOD와 경기 ID |
 | [실제 경기 구간 탐색용 링크](data/worlds/2025-main-event/gameplay-hints.csv) | 63경기의 미검증 YouTube 자동 챕터 링크와 2경기의 검증된 경기 화면 링크 |
 | [VOD JSON](data/worlds/2025-main-event/vods.json) | 웹사이트에서 쓰는 경기 ID·YouTube 링크 목록 |
-| [Excel 스킨 입력표](data/worlds/2025-main-event/worlds-2025-skin-entry.xlsx) | 800픽 입력 시 챔피언별 스킨 드롭다운과 크로마 상태 드롭다운을 제공하는 통합문서 |
+| [Excel 스킨 입력표](data/worlds/2025-main-event/worlds-2025-skin-entry.xlsx) | 800픽 입력 시 챔피언별 스킨·선택한 스킨별 크로마 드롭다운을 제공하는 통합문서 |
 | [스킨 입력표](data/worlds/2025-main-event/picks.csv) | 800픽의 날짜·팀·선수·챔피언·스킨·크로마·영상 링크 |
 | [경기 원본](data/worlds/2025-main-event/roster.json) | ChainCC에서 가져온 80경기·800픽 |
 | [스킨 근거](data/worlds/2025-main-event/skin-evidence.json) | 공개 자료에서 정확한 픽에 연결한 183건 |
@@ -18,9 +18,11 @@
 
 ## 입력 방법
 
-Excel에서 작업한다면 `worlds-2025-skin-entry.xlsx`를 열어 **Picks** 시트의 노란색 `skin`, `source_url`, `chroma_status`, `chroma`, `chroma_source_url` 칸을 수정하세요. `skin` 드롭다운은 해당 행의 `champion_id`에 맞는 스킨만 보여줍니다. **Skin lookup** 시트에는 2025 월즈 당시 [Riot Data Dragon 15.20.1](https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion.json)에 등록된, 이번 80경기에 등장한 95개 챔피언의 1,103개 기본·개별 스킨과 ID·출처가 있습니다. `Classic`은 기본 스킨입니다. `youtube_url`과 기존 `source_url`은 Excel에서 클릭할 수 있습니다. `source_url`은 새 스킨을 선택할 때도 별도로 입력해야 합니다.
+Excel에서 작업한다면 `worlds-2025-skin-entry.xlsx`를 열어 **Picks** 시트의 노란색 `skin`, `source_url`, `chroma_status`, `chroma`, `chroma_source_url` 칸을 수정하세요. `skin` 드롭다운은 해당 행의 챔피언 스킨만, `chroma` 드롭다운은 선택한 스킨의 크로마만 보여줍니다. **Skin lookup** 시트에는 2026-11-09 기준 최신 [Riot Data Dragon 16.22.1](https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion.json)의 기본·개별 스킨 1,175개가 있습니다. **Chroma lookup** 시트에는 같은 Riot 파일의 `parentSkin`으로 연결한 크로마 3,870개가 있습니다. 두 목록 모두 이번 80경기에 등장한 95개 챔피언에 한정됩니다. `Classic`은 기본 스킨입니다. `in_2025_patch`가 `no`인 항목은 2025 월즈 당시에 아직 등록되지 않았으므로 이 대회의 픽으로 선택하지 마세요. 스킨은 [Riot Data Dragon 15.20.1](https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion.json), 크로마는 [CommunityDragon 15.20 클라이언트 자료](https://raw.communitydragon.org/15.20/plugins/rcp-be-lol-game-data/global/default/v1/champions/)와 대조했습니다. `youtube_url`과 기존 `source_url`은 Excel에서 클릭할 수 있습니다.
 
-입력을 마쳤다면 **Picks** 시트를 활성화한 상태에서 Excel의 **다른 이름으로 저장 → CSV UTF-8**을 선택하고 `data/worlds/2025-main-event/picks.csv`를 교체하세요. Excel이 현재 시트만 저장한다는 메시지를 표시하면 그대로 진행하면 됩니다. 이어서 `node scripts/import-reviewed-picks.mjs`와 `node scripts/validate.mjs`를 실행하세요. `Skin lookup` 시트는 CSV에 넣지 않습니다. 크로마의 구체적인 색상명은 아직 목록화하지 않았으므로 `chroma`에는 확인한 이름을 직접 입력합니다.
+새 스킨에는 `source_url`, 검토한 크로마에는 `chroma_source_url`을 입력하세요. 크로마를 선택했다면 `chroma_status`를 `variant`로 바꾸세요. 두 근거 링크 중 필요한 값이 비어 있거나 크로마 이름과 상태가 맞지 않으면 해당 칸이 연한 빨간색으로 표시됩니다. 통합문서에서만 선택하고 근거를 입력하지 않은 값은 **작업 중인 초안**이며 검증된 통계에 포함되지 않습니다.
+
+입력을 마쳤다면 **Picks** 시트를 활성화한 상태에서 Excel의 **다른 이름으로 저장 → CSV UTF-8**을 선택하고 `data/worlds/2025-main-event/picks.csv`를 교체하세요. Excel이 현재 시트만 저장한다는 메시지를 표시하면 그대로 진행하면 됩니다. 이어서 `node scripts/import-reviewed-picks.mjs`와 `node scripts/validate.mjs`를 실행하세요. 두 lookup 시트는 CSV에 넣지 않습니다.
 
 1. `games.csv`에서 경기를 찾고 `youtube_url`을 여세요. `picks.csv`의 각 픽에도 같은 링크가 있습니다. 픽/밴 이후의 화면으로 빠르게 이동하려면 같은 `game_id`의 `gameplay-hints.csv`에서 `chapter_hint_url`을 이용하세요. 63경기는 **미검증 자동 챕터 힌트**이고 2경기 링크는 실제 경기 화면으로 검증했습니다. 빈칸인 15경기는 원래 YouTube 링크에서 직접 찾으세요.
 2. `picks.csv`에서 해당 `game_id`로 필터링해 선수·챔피언을 확인하세요. `skin`이 빈칸이면 아직 모르는 것입니다. **기본 스킨이라는 뜻이 아닙니다.** 스킨을 확인한 경우 이름을 입력하고 `source_url`에 확인한 영상의 시점 링크나 공개 자료 링크를 넣으세요. 새 스킨 값에는 출처가 필요합니다.
