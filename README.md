@@ -1,6 +1,17 @@
 # LoL pro skin stats / 프로 경기 스킨 기록
 
-프로 리그 오브 레전드 경기의 **실제로 선택된 스킨**을 경기·선수·챔피언 단위로 기록하는 공개 데이터 저장소입니다. 우승팀 기념 스킨 목록과는 다릅니다. 현재 입력표는 **2025 월즈 메인 이벤트 80경기·800픽**을 담고 있습니다.
+## Match coverage / 경기 목록
+
+| Event | Recorded coverage | Matches | Entry workbook | Game data |
+| --- | --- | --- | --- | --- |
+| Worlds 2026, Main Event | 38 matches · 68 games · 680 picks, through Nov 8 | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/worlds/2026-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/worlds/2026-main-event/worlds-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/worlds/2026-main-event/games.csv) |
+| MSI 2026, all stages | 20 matches · 71 games · 710 picks | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/msi/2026-all-stages/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/msi/2026-all-stages/msi-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/msi/2026-all-stages/games.csv) |
+| EWC 2026, Main Event | 28 matches · 51 games · 510 picks | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/ewc/2026-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/ewc/2026-main-event/ewc-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/ewc/2026-main-event/games.csv) |
+| Worlds 2025, Main Event | 40 matches · 80 games · 800 picks | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/worlds/2025-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/worlds/2025-main-event/worlds-2025-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/worlds/2025-main-event/games.csv) |
+
+2026 월즈는 진행 중입니다. 표의 숫자는 현재 저장소에 있는 경기만 셉니다. 2026 스킨·크로마 칸은 검증된 사용 기록이 아니라 입력용 빈칸입니다. [2026 자료 범위와 출처](docs/2026-data-snapshot.md)를 확인하세요.
+
+프로 리그 오브 레전드 경기의 **실제로 선택된 스킨**을 경기·선수·챔피언 단위로 기록하는 공개 데이터 저장소입니다. 우승팀 기념 스킨 목록과는 다릅니다.
 
 | 파일 | 내용 |
 | --- | --- |
@@ -18,7 +29,9 @@
 
 ## 입력 방법
 
-Excel에서 작업한다면 `worlds-2025-skin-entry.xlsx`를 열어 **Picks** 시트의 노란색 `skin`, `source_url`, `chroma_status`, `chroma`, `chroma_source_url` 칸을 수정하세요. `skin` 드롭다운은 해당 행의 챔피언 스킨만, `chroma` 드롭다운은 선택한 스킨의 크로마만 보여줍니다. **Skin lookup** 시트에는 2026-11-09 기준 최신 [Riot Data Dragon 16.22.1](https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion.json)의 기본·개별 스킨 1,175개가 있습니다. **Chroma lookup** 시트에는 같은 Riot 파일의 `parentSkin`으로 연결한 크로마 3,870개가 있습니다. 두 목록 모두 이번 80경기에 등장한 95개 챔피언에 한정됩니다. `Classic`은 기본 스킨입니다. `in_2025_patch`가 `no`인 항목은 2025 월즈 당시에 아직 등록되지 않았으므로 이 대회의 픽으로 선택하지 마세요. 스킨은 [Riot Data Dragon 15.20.1](https://ddragon.leagueoflegends.com/cdn/15.20.1/data/en_US/champion.json), 크로마는 [CommunityDragon 15.20 클라이언트 자료](https://raw.communitydragon.org/15.20/plugins/rcp-be-lol-game-data/global/default/v1/champions/)와 대조했습니다. `youtube_url`과 기존 `source_url`은 Excel에서 클릭할 수 있습니다.
+Excel에서 작업한다면 위 표의 입력표를 열어 **Picks** 시트의 `skin`과 `chroma` 칸을 수정하세요. `skin` 드롭다운은 해당 챔피언의 스킨을, `chroma` 드롭다운은 선택한 스킨의 크로마를 보여줍니다. 크로마 선택지가 `default`뿐이면 빈 크로마 칸의 수식이 자동으로 `default`를 표시합니다. 2026 입력표의 lookup 시트는 경기 당시 패치인 16.13(MSI·EWC) 또는 16.20(월즈)의 [CommunityDragon 클라이언트 자료](https://raw.communitydragon.org/)로 만들었습니다. `Classic`은 기본 스킨입니다.
+
+아래 `source_url`과 `chroma_status` 설명은 기존 2025 `picks.csv` 검토 절차에 적용됩니다. 현재 Excel 입력표에는 이 두 열이 없습니다.
 
 새 스킨에는 `source_url`, 검토한 크로마에는 `chroma_source_url`을 입력하세요. 크로마를 선택했다면 `chroma_status`를 `variant`로 바꾸세요. 두 근거 링크 중 필요한 값이 비어 있거나 크로마 이름과 상태가 맞지 않으면 해당 칸이 연한 빨간색으로 표시됩니다. 통합문서에서만 선택하고 근거를 입력하지 않은 값은 **작업 중인 초안**이며 검증된 통계에 포함되지 않습니다.
 
