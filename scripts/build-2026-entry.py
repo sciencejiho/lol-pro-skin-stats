@@ -3,6 +3,7 @@
 Run with: uv run --with openpyxl python scripts/build-2026-entry.py
 """
 
+import argparse
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime
@@ -26,6 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_URL = "https://chaincc.lol/data/chaincc-players-2026.csv.gz"
 CHAMPIONS_URL = "https://ddragon.leagueoflegends.com/cdn/16.22.1/data/en_US/champion.json"
 CDRAGON = "https://raw.communitydragon.org/{patch}/plugins/rcp-be-lol-game-data/global/default/v1/champions/{id}.json"
+DDRAGON_SKINS = "https://ddragon.leagueoflegends.com/cdn/{patch}.1/data/en_US/champion/{id}.json"
 ESPORTS = "https://esports-api.lolesports.com/persisted/gw/"
 API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"
 EVENTS = {
@@ -150,19 +152,30 @@ def make_catalog(champion_ids, champion_info, patch):
     skin_rows, chroma_rows = [], []
     def fetch(champion_id):
         url = CDRAGON.format(patch=patch, id=champion_info[champion_id]["key"])
-        return champion_id, url, json.loads(get_bytes(url))
+        riot_url = DDRAGON_SKINS.format(patch=patch, id=champion_id)
+        return champion_id, url, json.loads(get_bytes(url)), riot_url, json.loads(get_bytes(riot_url))["data"][champion_id]["skins"]
     with ThreadPoolExecutor(max_workers=12) as pool:
         jobs = [pool.submit(fetch, champion_id) for champion_id in sorted(champion_ids)]
         for job in as_completed(jobs):
-            champion_id, url, data = job.result()
+            champion_id, url, data, riot_url, riot_skins = job.result()
             champion_name = champion_info[champion_id]["name"]
+            known_ids = set()
             for skin in data["skins"]:
                 name = f"Classic {champion_name}" if skin["isBase"] else skin["name"]
                 skin_rows.append((champion_id, champion_name, name, str(skin["id"]), url))
+                known_ids.add(str(skin["id"]))
                 key = f"{champion_id}|{name}"
                 chroma_rows.append((key, champion_id, name, "default", "", url))
                 for chroma in skin.get("chromas", []):
                     chroma_rows.append((key, champion_id, name, chroma["name"], str(chroma["id"]), url))
+                    # Data Dragon also lists chroma IDs among its skin entries.
+                    known_ids.add(str(chroma["id"]))
+            for skin in riot_skins:
+                if str(skin["id"]) in known_ids:
+                    continue
+                name = skin["name"]
+                skin_rows.append((champion_id, champion_name, name, str(skin["id"]), riot_url))
+                chroma_rows.append((f"{champion_id}|{name}", champion_id, name, "default", "", riot_url))
     skin_rows.sort(key=lambda row: (row[0], row[2]))
     chroma_rows.sort(key=lambda row: (row[1], row[2], row[3] != "default", row[3]))
     return skin_rows, chroma_rows
@@ -290,13 +303,17 @@ def load_reviews(directory, games, skin_rows, chroma_rows):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--event", choices=(*EVENTS, "all"), default="all")
+    args = parser.parse_args()
     raw = gzip.decompress(get_bytes(DATA_URL)).decode("utf-8-sig")
     all_rows = list(csv.DictReader(io.StringIO(raw)))
     champions = json.loads(get_bytes(CHAMPIONS_URL))["data"]
     by_name = {value["name"].lower(): value for value in champions.values()}
     by_name["wukong"] = champions["MonkeyKing"]
     info = {key: {"name": value["name"], "key": value["key"]} for key, value in champions.items()}
-    for slug, config in EVENTS.items():
+    selected = EVENTS if args.event == "all" else {args.event: EVENTS[args.event]}
+    for slug, config in selected.items():
         rows = [row for row in all_rows if row["league"] == config["league"] and config["first"] <= row["date"][:10] <= config["last"]]
         for row in rows:
             champion = by_name.get(row["champion"].lower())
@@ -312,9 +329,9 @@ def main():
         reviews = load_reviews(directory, games, skin_rows, chroma_rows)
         with (directory / "games.csv").open("w", newline="") as stream:
             writer = csv.writer(stream, lineterminator="\n")
-            writer.writerow(["date", "game_id", "series_game", "team_a", "team_b", "youtube_url", "vod_locale", "lolesports_url", "lolesports_match_id", "lolesports_game_id"])
+            writer.writerow(["date", "start_time_utc", "game_id", "series_game", "team_a", "team_b", "youtube_url", "vod_locale", "lolesports_url", "lolesports_match_id", "lolesports_game_id"])
             for game in games:
-                writer.writerow([game["date"], game["id"], game["number"], game["blue"], game["red"], *(game.get(key, "") for key in ("youtube_url", "vod_locale", "lolesports_url", "lolesports_match_id", "lolesports_game_id"))])
+                writer.writerow([game["date"], game["time"], game["id"], game["number"], game["blue"], game["red"], *(game.get(key, "") for key in ("youtube_url", "vod_locale", "lolesports_url", "lolesports_match_id", "lolesports_game_id"))])
         with (directory / "picks.csv").open("w", newline="") as stream:
             writer = csv.writer(stream, lineterminator="\n")
             writer.writerow(HEADERS)
@@ -328,7 +345,8 @@ def main():
         write_match_index(directory, {"worlds": "Worlds", "msi": "MSI", "ewc": "EWC"}[slug], config["stage"])
         (directory / "snapshot.json").write_text(json.dumps({"event": slug.upper(), "stage": config["stage"], "source": DATA_URL, "sourceRetrieved": date.today().isoformat(), "throughDate": max(game["date"] for game in games), "patch": config["patch"], "games": len(games), "picks": len(rows), "officialVodsMatched": matched, "reviewedSkins": len(reviews), "skinOptions": len(skin_rows), "chromaOptionsIncludingDefault": len(chroma_rows)}, indent=2) + "\n")
         print(f"{slug}: {len(games)} games, {len(rows)} picks, {matched} VODs, {len(skin_rows)} skins, {len(chroma_rows)} chroma choices")
-    write_match_index(ROOT / "data" / "worlds" / "2025-main-event", "Worlds 2025", "Main Event")
+    if args.event == "all":
+        write_match_index(ROOT / "data" / "worlds" / "2025-main-event", "Worlds 2025", "Main Event")
 
 
 if __name__ == "__main__":
