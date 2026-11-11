@@ -175,7 +175,7 @@ def add_table(sheet, name, end_col, end_row, stripes=False):
     sheet.add_table(table)
 
 
-def write_workbook(path, games, skin_rows, chroma_rows):
+def write_workbook(path, games, skin_rows, chroma_rows, reviews):
     wb = Workbook()
     picks = wb.active
     picks.title = "Picks"
@@ -212,7 +212,8 @@ def write_workbook(path, games, skin_rows, chroma_rows):
             players.sort(key=lambda row: ROLES.get(row["position"].lower(), 99))
             for index, player in enumerate(players):
                 row_num = picks.max_row + 1
-                values = [date.fromisoformat(game["date"]), game["id"], game["number"], side, team, opponent, player["playername"], player["champion_id"], player["champion"], None, None, game.get("youtube_url", "")]
+                review = reviews.get((game["id"], player["playername"], player["champion_id"]))
+                values = [date.fromisoformat(game["date"]), game["id"], game["number"], side, team, opponent, player["playername"], player["champion_id"], player["champion"], review["skin"] if review else None, review["chroma"] if review and review["chroma"] else None, game.get("youtube_url", "")]
                 picks.append(values)
                 for col in range(1, 13):
                     cell = picks.cell(row_num, col)
@@ -226,7 +227,8 @@ def write_workbook(path, games, skin_rows, chroma_rows):
                 picks.cell(row_num, 1).number_format = "yyyy-mm-dd"
                 if game.get("youtube_url"):
                     picks.cell(row_num, 12).hyperlink = game["youtube_url"]
-                picks.cell(row_num, 11).value = f'=IF($J{row_num}="","",IF(COUNTIF(\'Chroma lookup\'!$A$2:$A${len(chroma_rows)+1},$H{row_num}&"|"&$J{row_num})=1,"default",""))'.replace("\\'", "'")
+                if not review or not review["chroma"]:
+                    picks.cell(row_num, 11).value = f'=IF($J{row_num}="","",IF(COUNTIF(\'Chroma lookup\'!$A$2:$A${len(chroma_rows)+1},$H{row_num}&"|"&$J{row_num})=1,"default",""))'.replace("\\'", "'")
     picks.freeze_panes = "A2"
     add_table(picks, "Worlds2026Picks", 12, picks.max_row)
     skin_end = len(skin_rows) + 1
@@ -267,6 +269,26 @@ def write_match_index(directory, event, stage):
     (directory / "matches.md").write_text("\n".join(lines))
 
 
+def load_reviews(directory, games, skin_rows, chroma_rows):
+    path = directory / "skin-evidence.csv"
+    if not path.exists():
+        return {}
+    picks = {(game["id"], row["playername"], row["champion_id"]): game for game in games for row in game["picks"]}
+    skins = {(row[0], row[2]) for row in skin_rows}
+    chromas = {(row[1], row[2], row[3]) for row in chroma_rows}
+    reviews = {}
+    with path.open(newline="") as stream:
+        for row in csv.DictReader(stream):
+            key = (row["game_id"], row["player"], row["champion_id"])
+            assert key in picks and key not in reviews, key
+            assert (row["champion_id"], row["skin"]) in skins, key
+            assert not row["chroma"] or (row["champion_id"], row["skin"], row["chroma"]) in chromas, key
+            expected_url = f'{picks[key]["youtube_url"]}&t={row["video_time_seconds"]}s'
+            assert row["source_url"] == expected_url, key
+            reviews[key] = row
+    return reviews
+
+
 def main():
     raw = gzip.decompress(get_bytes(DATA_URL)).decode("utf-8-sig")
     all_rows = list(csv.DictReader(io.StringIO(raw)))
@@ -287,6 +309,7 @@ def main():
         skin_rows, chroma_rows = make_catalog(ids, info, config["patch"])
         directory = ROOT / "data" / slug / ("2026-main-event" if slug != "msi" else "2026-all-stages")
         directory.mkdir(parents=True, exist_ok=True)
+        reviews = load_reviews(directory, games, skin_rows, chroma_rows)
         with (directory / "games.csv").open("w", newline="") as stream:
             writer = csv.writer(stream, lineterminator="\n")
             writer.writerow(["date", "game_id", "series_game", "team_a", "team_b", "youtube_url", "vod_locale", "lolesports_url", "lolesports_match_id", "lolesports_game_id"])
@@ -298,11 +321,12 @@ def main():
             for game in games:
                 for side, team, opponent in (("Blue", game["blue"], game["red"]), ("Red", game["red"], game["blue"])):
                     for row in sorted((r for r in game["picks"] if r["side"].lower() == side.lower()), key=lambda r: ROLES.get(r["position"].lower(), 99)):
-                        writer.writerow([game["date"], game["id"], game["number"], side, team, opponent, row["playername"], row["champion_id"], row["champion"], "", "", game.get("youtube_url", "")])
+                        review = reviews.get((game["id"], row["playername"], row["champion_id"]))
+                        writer.writerow([game["date"], game["id"], game["number"], side, team, opponent, row["playername"], row["champion_id"], row["champion"], review["skin"] if review else "", review["chroma"] if review else "", game.get("youtube_url", "")])
         filename = f"{slug}-2026-skin-entry.xlsx"
-        write_workbook(directory / filename, games, skin_rows, chroma_rows)
+        write_workbook(directory / filename, games, skin_rows, chroma_rows, reviews)
         write_match_index(directory, {"worlds": "Worlds", "msi": "MSI", "ewc": "EWC"}[slug], config["stage"])
-        (directory / "snapshot.json").write_text(json.dumps({"event": slug.upper(), "stage": config["stage"], "source": DATA_URL, "sourceRetrieved": date.today().isoformat(), "throughDate": max(game["date"] for game in games), "patch": config["patch"], "games": len(games), "picks": len(rows), "officialVodsMatched": matched, "skinOptions": len(skin_rows), "chromaOptionsIncludingDefault": len(chroma_rows)}, indent=2) + "\n")
+        (directory / "snapshot.json").write_text(json.dumps({"event": slug.upper(), "stage": config["stage"], "source": DATA_URL, "sourceRetrieved": date.today().isoformat(), "throughDate": max(game["date"] for game in games), "patch": config["patch"], "games": len(games), "picks": len(rows), "officialVodsMatched": matched, "reviewedSkins": len(reviews), "skinOptions": len(skin_rows), "chromaOptionsIncludingDefault": len(chroma_rows)}, indent=2) + "\n")
         print(f"{slug}: {len(games)} games, {len(rows)} picks, {matched} VODs, {len(skin_rows)} skins, {len(chroma_rows)} chroma choices")
     write_match_index(ROOT / "data" / "worlds" / "2025-main-event", "Worlds 2025", "Main Event")
 

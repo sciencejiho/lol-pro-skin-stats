@@ -1,6 +1,6 @@
 # Worlds 2026 match coverage
 
-Main Event. 38 matches, 68 games, 680 picks. Match rows below list games present in this repository.
+Main Event. 39 matches, 72 games, 720 picks. Match rows below list games present in this repository.
 
 | Date | Match | Games recorded | Video |
 | --- | --- | ---: | --- |
@@ -42,5 +42,6 @@ Main Event. 38 matches, 68 games, 680 picks. Match rows below list games present
 | 2026-11-05 | Bilibili Gaming vs Dplus Kia | 3 | [Open VOD](https://www.youtube.com/watch?v=4894K4VmUFU) |
 | 2026-11-06 | T1 vs Karmine Corp | 4 | [Open VOD](https://www.youtube.com/watch?v=3bjMhxxyc-4) |
 | 2026-11-07 | Gen.G vs Invictus Gaming | 3 | [Open VOD](https://www.youtube.com/watch?v=KWsF6lpxA6U) |
+| 2026-11-08 | Bilibili Gaming vs T1 | 4 | [Open VOD](https://www.youtube.com/watch?v=gf50dvLAORc) |
 
 [Game and VOD details](games.csv) · [Pick rows](picks.csv)

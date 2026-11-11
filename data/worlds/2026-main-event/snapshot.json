@@ -2,12 +2,13 @@
   "event": "WORLDS",
   "stage": "Main Event",
   "source": "https://chaincc.lol/data/chaincc-players-2026.csv.gz",
-  "sourceRetrieved": "2026-11-10",
-  "throughDate": "2026-11-08",
+  "sourceRetrieved": "2026-11-11",
+  "throughDate": "2026-11-09",
   "patch": "16.20",
-  "games": 68,
-  "picks": 680,
-  "officialVodsMatched": 68,
+  "games": 72,
+  "picks": 720,
+  "officialVodsMatched": 72,
+  "reviewedSkins": 10,
   "skinOptions": 1140,
   "chromaOptionsIncludingDefault": 4895
 }

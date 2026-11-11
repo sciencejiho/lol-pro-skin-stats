@@ -2,12 +2,13 @@
   "event": "MSI",
   "stage": "All stages",
   "source": "https://chaincc.lol/data/chaincc-players-2026.csv.gz",
-  "sourceRetrieved": "2026-11-10",
+  "sourceRetrieved": "2026-11-11",
   "throughDate": "2026-07-12",
   "patch": "16.13",
   "games": 71,
   "picks": 710,
   "officialVodsMatched": 71,
+  "reviewedSkins": 20,
   "skinOptions": 1229,
   "chromaOptionsIncludingDefault": 5261
 }

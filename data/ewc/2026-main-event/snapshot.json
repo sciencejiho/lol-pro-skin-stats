@@ -2,12 +2,13 @@
   "event": "EWC",
   "stage": "Main Event",
   "source": "https://chaincc.lol/data/chaincc-players-2026.csv.gz",
-  "sourceRetrieved": "2026-11-10",
+  "sourceRetrieved": "2026-11-11",
   "throughDate": "2026-07-19",
   "patch": "16.13",
   "games": 51,
   "picks": 510,
   "officialVodsMatched": 51,
+  "reviewedSkins": 0,
   "skinOptions": 971,
   "chromaOptionsIncludingDefault": 4104
 }

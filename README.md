@@ -4,12 +4,12 @@
 
 | Event | Recorded coverage | Matches | Entry workbook | Game data |
 | --- | --- | --- | --- | --- |
-| Worlds 2026, Main Event | 38 matches · 68 games · 680 picks, through Nov 8 | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/worlds/2026-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/worlds/2026-main-event/worlds-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/worlds/2026-main-event/games.csv) |
-| MSI 2026, all stages | 20 matches · 71 games · 710 picks | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/msi/2026-all-stages/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/msi/2026-all-stages/msi-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/msi/2026-all-stages/games.csv) |
+| Worlds 2026, Main Event | 39 matches · 72 games · 720 picks, through Nov 9 · 10 skins checked | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/worlds/2026-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/worlds/2026-main-event/worlds-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/worlds/2026-main-event/games.csv) |
+| MSI 2026, all stages | 20 matches · 71 games · 710 picks · 20 skins checked | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/msi/2026-all-stages/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/msi/2026-all-stages/msi-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/msi/2026-all-stages/games.csv) |
 | EWC 2026, Main Event | 28 matches · 51 games · 510 picks | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/ewc/2026-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/ewc/2026-main-event/ewc-2026-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/ewc/2026-main-event/games.csv) |
 | Worlds 2025, Main Event | 40 matches · 80 games · 800 picks | [![View matches](https://img.shields.io/badge/Matches-view-2878B5)](data/worlds/2025-main-event/matches.md) | [![Open workbook](https://img.shields.io/badge/Excel-open-217346)](data/worlds/2025-main-event/worlds-2025-skin-entry.xlsx) | [![Games CSV](https://img.shields.io/badge/Games-CSV-596579)](data/worlds/2025-main-event/games.csv) |
 
-2026 월즈는 진행 중입니다. 표의 숫자는 현재 저장소에 있는 경기만 셉니다. 2026 스킨·크로마 칸은 검증된 사용 기록이 아니라 입력용 빈칸입니다. [2026 자료 범위와 출처](docs/2026-data-snapshot.md)를 확인하세요.
+2026 월즈는 진행 중입니다. 표의 숫자는 현재 저장소에 있는 경기만 셉니다. 2026년 스킨 30픽은 공식 VOD의 선수별 소개 화면에서 확인했으며, 각 픽의 [MSI 근거](data/msi/2026-all-stages/skin-evidence.csv)와 [월즈 근거](data/worlds/2026-main-event/skin-evidence.csv)에 시점 링크를 남겼습니다. 나머지 빈 스킨 칸은 미확인입니다. [2026 자료 범위와 출처](docs/2026-data-snapshot.md)를 확인하세요.
 
 프로 리그 오브 레전드 경기의 **실제로 선택된 스킨**을 경기·선수·챔피언 단위로 기록하는 공개 데이터 저장소입니다. 우승팀 기념 스킨 목록과는 다릅니다.
 
